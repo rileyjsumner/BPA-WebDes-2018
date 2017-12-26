@@ -1,30 +1,64 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Arvo|Lalezar');
+
+/*
+font-family: 'Arvo', serif; - Body
+font-family: 'Archivo Black', sans-serif; - Sub-heading
+font-family: 'Lalezar', cursive; - Heading
+*/
+.circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: black;
+  line-height: 500px;
   text-align: center;
+  background: white;
+  background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
+  background: -o-radial-gradient(#E8D5BE, #E0BF96);
+  background: -moz-radial-gradient(#E8D5BE, #E0BF96);
+  background: radial-gradient(#E8D5BE, #E0BF96);
+  z-index: -2;
+  margin: auto;
+  border-width: 8px;
+  border-color: black;
+  border-style: solid;
+  margin-top: 100px;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.circle_inner {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+  line-height: 500px;
+  z-index: 1;
+  margin: auto;
+  border-width: 9px;
+  border-color: #003261;
+  border-style: dotted;
+  margin-top: -590px;
 }
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.PageCont {
+  z-index: 1;
+  margin-top: -500px;
 }
-.App-header h1 {
-    color: blue;
+.body {
+  margin-top: -450px;
+  text-align: center;
+  z-index: 1;
+  position: relative;
 }
-.App-title {
-  font-size: 1.5em;
+.body h2 {
+  font-family: 'Lalezar', cursive;;
+  font-size: 3em;
+  color:#ED3E41;
+  text-shadow: -1px 0 #000000,0 1px #000000, 1px 0 #000000,0 -1px #000000;
 }
-
-.App-intro {
-  font-size: large;
+.body p {
+  font-family: 'Arvo', serif;;
+  color: #003261;
+  margin-top: -50px;
+  font-size: 14px;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.torches {
+    padding-top: 28px;
 }
