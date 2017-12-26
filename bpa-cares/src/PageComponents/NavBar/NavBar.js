@@ -3,8 +3,8 @@ import '../../App.css';
 import { NavItem } from './NavItem.js';
 
 export class NavBar extends Component {
-    generateItem() {
-        return <NavItem url={items.url} text={items.text} submenu={items.submenu}/>;
+    generateItem(item) {
+        return <NavItem url={item.url} text={item.text} submenu={item.submenu}/>;
     }
     render() {
         var items = this.props.items.map(this.generateItem);

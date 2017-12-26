@@ -1,4 +1,4 @@
-var items = [
+[
  {
   "text": "Service Learning Awards",
   "url": "/Service-Learning",
