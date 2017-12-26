@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import { ApplicationGuidelines } from '../PageComponents/GeneralComponents/ApplicationGuidelines.js';
+import{ Generalinfo } from '../PageComponents/GeneralComponents/Generalinfo.js';
+import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
+import {Recognition} from '../PageComponents/GeneralComponents/Recognition.js';
 export class AdvisorOTY extends Component {
   render() {
     return (
@@ -21,3 +24,6 @@ about the nominee: </p>
  <li> Resume for the nominee </li>
  </ol>
 <ApplicationGuidelines/>
+<Generalinfo/>
+<Recognition/>
+<NonDiscrimination/>
