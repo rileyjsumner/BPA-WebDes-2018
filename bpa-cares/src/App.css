@@ -13,7 +13,9 @@
   padding: 20px;
   color: white;
 }
-
+.App-header h1 {
+    color: blue;
+}
 .App-title {
   font-size: 1.5em;
 }
