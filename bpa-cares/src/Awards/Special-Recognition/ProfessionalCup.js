@@ -8,6 +8,7 @@ export class ProfessionalCup extends Component {
     return (
       <div className="awardWrapper">
       <h1> The Professional Cup Award </h1>
+      <h1> (Outstanding State Participation) </h1>
       <h2>Purpose</h2>
       <p>To encourage state associations to become actively involved in promoting participation in the BPA
 Cares Award Program by the local chapters and to recognize states with active participation; and to
@@ -40,6 +41,6 @@ Programs:
 Award.</li>
   <li>The total number of chapters meeting the criteria for the Membership Explosion Award within
 the state.</li>
-  <li>The association’s percentage of chapters earning the Quality Chapter Distinction.</li>
-  <li>The total number of chapters earning the Quality Chapter Distinction within the state. </li>
+  <li>The association’s percentage of chapters earning the <a href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a> </li>
+  <li>The total number of chapters earning the <a href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a>Quality Chapter Distinction within the state. </li>
  </ol>
