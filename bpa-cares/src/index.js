@@ -16,13 +16,13 @@ import { EnvironmentalAction } from './Awards/Service-Learning/EnvironmentalActi
 import { SafetyAwareness } from './Awards/Service-Learning/SafetyAwareness';
 import { ServiceLearningIndiv } from './Awards/Service-Learning/ServiceLearningIndiv';
 import { SpecialOlympics } from './Awards/Service-Learning/SpecialOlympics';
-import { AwardOfExcellence } from './Awards/SpecialRecognition/AwardOfExcellence';
-import { MarketingAndPR } from './Awards/SpecialRecognition/MarketingAndPR';
-import { MembershipExplosion } from './Awards/SpecialRecognition/MembershipExplosion';
-import { MeritScholar } from './Awards/SpecialRecognition/MeritScholar';
-import { ProfessionalCup } from './Awards/SpecialRecognition/ProfessionalCup';
-import { RecruiterOTY } from './Awards/SpecialRecognition/RecruiterOTY';
-import { SocialMedia } from './Awards/SpecialRecognition/SocialMedia';
+import { AwardOfExcellence } from './Awards/Special-Recognition/AwardOfExcellence';
+import { MarketingAndPR } from './Awards/Special-Recognition/MarketingAndPR';
+import { MembershipExplosion } from './Awards/Special-Recognition/MembershipExplosion';
+import { MeritScholar } from './Awards/Special-Recognition/MeritScholar';
+import { ProfessionalCup } from './Awards/Special-Recognition/ProfessionalCup';
+import { RecruiterOTY } from './Awards/Special-Recognition/RecruiterOTY';
+import { SocialMedia } from './Awards/Special-Recognition/SocialMedia';
 
 ReactDOM.render(
     (
