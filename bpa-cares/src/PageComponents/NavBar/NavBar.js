@@ -43,6 +43,7 @@ export class Navigation extends Component {
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </div>
+                            <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center" right>
                                     <DropdownToggle className="col-md-12" color="danger">Special Recognition Awards</DropdownToggle>
@@ -57,6 +58,7 @@ export class Navigation extends Component {
                                     </DropdownMenu>
                                 </UncontrolledDropdown>
                             </div>
+                            <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center" right>
                                     <DropdownToggle className="col-md-12" color="danger">Professional Awards</DropdownToggle>

@@ -5,6 +5,18 @@ font-family: 'Arvo', serif; - Body
 font-family: 'Archivo Black', sans-serif; - Sub-heading
 font-family: 'Lalezar', cursive; - Heading
 */
+html {
+    background: #003261;
+    background: -webkit-radial-gradient(#003261, #004061);
+    background: -o-radial-gradient(#003261, #004061);
+    background: -moz-radial-gradient(#003261, #004061);
+    background: radial-gradient(#003261, #004061);
+    background-position: fixed;
+}
+.homeWrapper {
+    background-color: #ED3E41;
+    height: 600px;
+}
 .circle {
     width: 600px;
     height: 600px;
@@ -69,5 +81,5 @@ font-family: 'Lalezar', cursive; - Heading
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
