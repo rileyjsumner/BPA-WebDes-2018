@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { SplashPage } from './PageComponents/SplashPage.js';
 import './App.css';
 

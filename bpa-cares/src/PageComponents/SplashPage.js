@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../App.css';
-import { NavBar } from './NavBar/NavBar.js';
-import { data } from './NavBar/data.js';
+import { Navigation } from './NavBar/NavBar.js';
 
 export class SplashPage extends Component {
     render() {
@@ -12,11 +11,12 @@ export class SplashPage extends Component {
                 <div className="PageCont">
                     <div className="body" id="home">
                         <h2>BPA CARES</h2>
-                        <NavBar items={data}/>
                         <div className="torches">
-                            <p>LOVE | HOPE | FAITH | PATRIOTISM</p>
-                            <p>LEADERSHIP | SERVICE | COOPERATION | KNOWLEDGE | FRIENDSHIP</p>
+                            <p>LEADERSHIP | SERVICE | COOPERATION </p>
+                            <p>KNOWLEDGE | FRIENDSHIP | LOVE</p>
+                            <p>HOPE | FAITH | PATRIOTISM</p>
                         </div>
+                        <Navigation/>
                     </div>
                 </div>
             </div>
