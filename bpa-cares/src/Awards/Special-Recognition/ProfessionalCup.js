@@ -30,10 +30,11 @@ Each state association’s ranking will be determined by:
 <ol>
 <li> The association’s percentage of chapters participating in the following BPA Cares Award
 Programs:
-<ul>
+  <ul>
      <li> Service Learning Awards Program (all awards in this category are eligible) </li>
      <li> Marketing and Public Relations </li>
-     <li> Chapter Activities Award of Excellence </li> </ul>
+     <li> Chapter Activities Award of Excellence </li>
+     </ul> </li>
      <li>The total number of chapters participating in the BPA Cares Award Program within the state.</li>
   <li>The association’s percentage of members receiving their Ambassador Torch Award.</li>
   <li>The total number of members receiving the Ambassador Torch Award within the state.</li>
