@@ -9,8 +9,8 @@ export class NonDiscrimination extends Component {
          of race, color, religion, national origin or ancestry, age , sex, marital satus,
          sexual orientation, or disability shall be discriminated against, excluded from participation in,
          deined the benefits of, or otherwise be subjected to, discrimination in any program or activity for which it is responsible.
-         <p/>
+         </p>
       </div>
-    )
+  );
   }
 }
