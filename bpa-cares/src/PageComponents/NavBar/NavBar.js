@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import {
+  Col,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -28,9 +29,9 @@ export class Navigation extends Component {
             <Navbar color="faded" light expand="md">
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                    <Nav className="ml-auto" vertical>
-                        <UncontrolledDropdown>
-                            <DropdownToggle color="danger">Service Learning Awards</DropdownToggle>
+                    <Nav className="col-md-12" vertical>
+                        <UncontrolledDropdown right>
+                            <DropdownToggle className="navLink" color="danger">Service Learning Awards</DropdownToggle>
                             <DropdownMenu>
                                 <DropdownItem href="/#/ServiceLearning/Community-Service">Community Service Award</DropdownItem>
                                 <DropdownItem href="/#/ServiceLearning/Environmental-Action">Environmental Action/Awareness Award</DropdownItem>
@@ -39,8 +40,8 @@ export class Navigation extends Component {
                                 <DropdownItem href="/#/ServiceLearning/Special-Olympics">Special Olympics Award</DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
-                        <UncontrolledDropdown>
-                            <DropdownToggle color="danger">Special Recognition Awards</DropdownToggle>
+                        <UncontrolledDropdown right>
+                            <DropdownToggle className="navLink" color="danger">Special Recognition Awards</DropdownToggle>
                             <DropdownMenu >
                                 <DropdownItem href="/#/SpecialRecognition/BPA-Marketing-and-Public-Relations">BPA Marketing & Public Relations Award</DropdownItem>
                                 <DropdownItem href="/#/SpecialRecognition/BPA-Merit-Scholar">BPA Merit Scholar Award</DropdownItem>
@@ -51,8 +52,8 @@ export class Navigation extends Component {
                                 <DropdownItem href="/#/SpecialRecognition/Professional-Cup">Professional Cup</DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
-                        <UncontrolledDropdown>
-                            <DropdownToggle color="danger">Professional Awards</DropdownToggle>
+                        <UncontrolledDropdown right>
+                            <DropdownToggle className="navLink" color="danger">Professional Awards</DropdownToggle>
                             <DropdownMenu >
                                 <DropdownItem href="/#/Professional/Advisor-of-the-Year">Advisor of the Year Award</DropdownItem>
                                 <DropdownItem href="/#/Professional/Emerging-Advisor">Emerging Advisor of the Year Award</DropdownItem>

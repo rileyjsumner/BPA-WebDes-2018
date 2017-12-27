@@ -1,8 +1,13 @@
 .navLink {
     padding: 5px;
+    margin: 30px;
     list-style-type: none;
 }
 .navBar {
     text-decoration: none;
+    text-align: center;
+}
+.row {
+    width: 100%;
     text-align: center;
 }

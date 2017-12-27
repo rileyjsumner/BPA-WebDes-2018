@@ -16,7 +16,9 @@ export class SplashPage extends Component {
                             <p>KNOWLEDGE | FRIENDSHIP | LOVE</p>
                             <p>HOPE | FAITH | PATRIOTISM</p>
                         </div>
-                        <Navigation/>
+                        <div id="nav">
+                            <Navigation/>
+                        </div>
                     </div>
                 </div>
             </div>
