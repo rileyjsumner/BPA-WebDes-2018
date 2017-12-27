@@ -6,58 +6,58 @@ font-family: 'Archivo Black', sans-serif; - Sub-heading
 font-family: 'Lalezar', cursive; - Heading
 */
 .circle {
-  width: 600px;
-  height: 600px;
-  border-radius: 50%;
-  font-size: 50px;
-  color: black;
-  line-height: 500px;
-  text-align: center;
-  background: white;
-  background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
-  background: -o-radial-gradient(#E8D5BE, #E0BF96);
-  background: -moz-radial-gradient(#E8D5BE, #E0BF96);
-  background: radial-gradient(#E8D5BE, #E0BF96);
-  z-index: -2;
-  margin: auto;
-  border-width: 8px;
-  border-color: black;
-  border-style: solid;
-  margin-top: 100px;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: black;
+    line-height: 500px;
+    text-align: center;
+    background: white;
+    background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
+    background: -o-radial-gradient(#E8D5BE, #E0BF96);
+    background: -moz-radial-gradient(#E8D5BE, #E0BF96);
+    background: radial-gradient(#E8D5BE, #E0BF96);
+    z-index: -2;
+    margin: auto;
+    border-width: 8px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 100px;
 }
 .circle_inner {
-  width: 550px;
-  height: 550px;
-  border-radius: 50%;
-  line-height: 500px;
-  z-index: 1;
-  margin: auto;
-  border-width: 9px;
-  border-color: #003261;
-  border-style: dotted;
-  margin-top: -575px;
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    line-height: 500px;
+    z-index: 1;
+    margin: auto;
+    border-width: 9px;
+    border-color: #003261;
+    border-style: dotted;
+    margin-top: -575px;
 }
 .PageCont {
-  z-index: 1;
-  margin-top: -500px;
+    z-index: 1;
+    margin-top: -500px;
 }
 .body {
-  margin-top: -450px;
-  text-align: center;
-  z-index: 1;
-  position: relative;
+    margin-top: -450px;
+    text-align: center;
+    z-index: 1;
+    position: relative;
 }
 .body h2 {
-  font-family: 'Lalezar', cursive;;
-  font-size: 3em;
-  color:#ED3E41;
-  text-shadow: -1px 0 #000000,0 1px #000000, 1px 0 #000000,0 -1px #000000;
+    font-family: 'Lalezar', cursive;;
+    font-size: 3em;
+    color:#ED3E41;
+    text-shadow: -1px 0 #000000,0 1px #000000, 1px 0 #000000,0 -1px #000000;
 }
 .body p {
-  font-family: 'Arvo', serif;;
-  color: #003261;
-  margin-top: -50px;
-  font-size: 14px;
+    font-family: 'Arvo', serif;;
+    color: #003261;
+    margin-top: -50px;
+    font-size: 14px;
 }
 .torches {
     padding-top: 0px;
@@ -66,7 +66,8 @@ font-family: 'Lalezar', cursive; - Heading
     margin: 15px;
 }
 #nav {
-    width: 100%;
-    margin: 0px auto;
-    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }

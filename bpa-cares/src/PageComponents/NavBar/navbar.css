@@ -1,11 +1,10 @@
-.navLink {
-    padding: 5px;
-    margin: 30px;
-    list-style-type: none;
-}
-.navBar {
-    text-decoration: none;
+.navAlign {
     text-align: center;
+    padding-left: 250px;
+}
+.dropdown {
+    margin: 15px;
+    padding: 15px;
 }
 .row {
     width: 100%;
