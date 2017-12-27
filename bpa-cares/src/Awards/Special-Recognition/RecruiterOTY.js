@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { ApplicationGuidelines } from '../PageComponents/GeneralComponents/ApplicationGuidelines.js';
-import{ Generalinfo } from '../PageComponents/GeneralComponents/Generalinfo.js';
-import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
-import {Recognition} from '../PageComponents/GeneralComponents/Recognition.js';
-export class AwardOfExcellence extends Component {
+import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/ApplicationGuidelines.js';
+import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
+import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
+import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
+export class RecruiterOTY extends Component {
   render() {
     return (
       <div className="awardWrapper">
