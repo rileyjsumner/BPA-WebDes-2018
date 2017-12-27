@@ -66,11 +66,18 @@ EVENTS. EACH AWARD MUST BE SUBMITTED SEPARATELY.</li></ul>
 <h2>Recognition</h2>
 <h3>Chapter Activities Award of Excellence: A plaque will be presented to each qualifying chapter on
 stage at the National Leadership Conference.</h3>
-<h2>NonDiscrimination</h2>
+<h2>Non-Discrimination</h2>
 <p>It is the policy of Business Professionals of America that no person on the basis of race, color,
 religion, national origin or ancestry, age, sex, marital status, sexual orientation, or disability shall be
 discriminated against, excluded from participation in, denied the benefits of, or otherwise be
 subjected to, discrimination in any program or activity for which it is responsible.</p>
+<p>
+<h1> Chapter Activities Award Of Excellence Rubric </h1>
+<h2> The following rubric will be used for scoring Chapter Activities Award of Excellence
+submissions. In order to receive recognition, projects must meet all basic qualifications, as
+well as score a minimum of 85% of possible points. </h2>
+<h3> All entries must be submitted using the oline application. </h3>
+<table>
 <tr>
 <th> Articles to Evaluate    </th>
     <th>Activity completed
@@ -171,8 +178,7 @@ article
 <td> </td>
 <td> </td>
 </tr><tr>
-<td> Community Service Entry
- </td>
+<td colspan="4"> Chapter Activities Award of Excellence Point Total (maximum 450):</td>
 <td> </td>
-
 </tr>
+</table>
