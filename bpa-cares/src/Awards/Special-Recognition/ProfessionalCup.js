@@ -73,8 +73,7 @@ After the tenth year, the trophy will be retired and presented to the state with
 won the award the most times during the ten years. </p>
 <h2> Having trouble with the BPA Cares Award? <a href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </h2>
 <NonDiscrimination />
-
-      </div>
+</div>
     );
   }
 }
