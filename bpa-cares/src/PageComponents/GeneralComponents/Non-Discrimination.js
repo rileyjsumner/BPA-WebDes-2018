@@ -4,7 +4,7 @@ export class NonDiscrimination extends Component {
   render() {
     return (
       <div className="generalContent">
-        <h1>Non discrimination policy</h1>
+        <h1>Non-Discrimination Policy</h1>
         <p> It is the policy of business Professionals of America that no person on the basis
          of race, color, religion, national origin or ancestry, age , sex, marital satus,
          sexual orientation, or disability shall be discriminated against, excluded from participation in,
