@@ -22,12 +22,12 @@ about the nominee: </p>
 include all activity descriptions. Partial applications will not be accepted or combined. Do not begin
 the application online submission form until you have completed all activities.</p>
 <p>Applications due April 1.</p>
-<p> <a href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform"></a>
+<p> <a href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform">Online Application</a>
 <ApplicationGuidelines/> </p>
 <h2>Qualification Period</h2>
 <p>Activities completed between April 2, 2017 and April 1, 2018 (11:59 PM EST) can be counted
 towards this award.</p>
-<p> <a href="http://www.bpa.org/service/rubriccaa"></a>
+<p> <a href="http://www.bpa.org/service/rubriccaa"> Scoring rubric </a>
 <h2>Required Activities</h2>
 <h3>Activities for this award can be duplicated from other activity submissions.<h3/>
 <p> The following award applications are required to be submitted (applicant is not required to
@@ -49,6 +49,7 @@ Environmental Action/Awareness (minimum one (1) activity)</p>
 <li>A career development related activity for the chapter (could include seeing a speaker, watching a
 film, taking a field trip, etc.)</li></ul>
 <Generalinfo/>
+<h2>General Information</h2>
 <ul><li>Applicants may only count activities once in the BPA Cares Award Program, except Service
 Learning Individual and Chapter Activities Award of Excellence.</li>
 <li>Chapters may complete more than one activity to equal the total number of hours/dollars.</li>
@@ -64,13 +65,10 @@ program and receive the award.</li>
 AWARDS MAY NOT BE SUBMITTED WITH TECHNICAL PROJECTS FOR COMPETITIVE
 EVENTS. EACH AWARD MUST BE SUBMITTED SEPARATELY.</li></ul>
 <h2>Recognition</h2>
-<h3>Chapter Activities Award of Excellence: A plaque will be presented to each qualifying chapter on
-stage at the National Leadership Conference.</h3>
-<h2>Non-Discrimination</h2>
-<p>It is the policy of Business Professionals of America that no person on the basis of race, color,
-religion, national origin or ancestry, age, sex, marital status, sexual orientation, or disability shall be
-discriminated against, excluded from participation in, denied the benefits of, or otherwise be
-subjected to, discrimination in any program or activity for which it is responsible.</p>
+<p>Chapter Activities Award of Excellence: A plaque will be presented to each qualifying chapter on
+stage at the National Leadership Conference.</p>
+<h2> Having Trouble With the BPA Cares Award?  <a href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </h2>
+<NonDiscrimination />
 <p>
 <h1> Chapter Activities Award Of Excellence Rubric </h1>
 <h2> The following rubric will be used for scoring Chapter Activities Award of Excellence
