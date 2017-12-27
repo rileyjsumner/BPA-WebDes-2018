@@ -45,3 +45,6 @@ the state.</li>
   <li>The association’s percentage of chapters earning the <a href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a> </li>
   <li>The total number of chapters earning the <a href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a>Quality Chapter Distinction within the state. </li>
  </ol>
+);
+}
+}
