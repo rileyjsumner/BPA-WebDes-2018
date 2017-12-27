@@ -20,10 +20,11 @@ export class AdvisorOTY extends Component {
           <li> One letter must be from a current student </li>
           <li> Resume for the nominee </li>
         </ol>
-        <ApplicationGuidelines/>
-        <Generalinfo/>
-        <Recognition/>
-        <NonDiscrimination/>
+        <ApplicationGuidelines />
+        <Generalinfo />
+        <Recognition />
+        <NonDiscrimination />
+     </div>
       );
     }
   }

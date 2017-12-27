@@ -1,4 +1,8 @@
-.navbar {
+.navLink {
+    padding: 5px;
+    list-style-type: none;
+}
+.navBar {
+    text-decoration: none;
     text-align: center;
-    margin: 0px auto;
 }
