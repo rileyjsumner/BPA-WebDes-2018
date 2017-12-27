@@ -182,3 +182,7 @@ article
 <td> </td>
 </tr>
 </table>
+</div>
+);
+}
+}

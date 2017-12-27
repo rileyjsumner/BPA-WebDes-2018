@@ -54,4 +54,8 @@ Achievement. Each year the applicant with the most amount of recruiter points re
 on the above criteria, in their division will be recognized with a plaque as National Recruiter of
 the Year at a General Session during the NLC. </p>
 <p> Having trouble with the BPA Cares Award? <a href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
-<p> </p>
+<NonDiscrimination />
+</div>
+);
+}
+}
