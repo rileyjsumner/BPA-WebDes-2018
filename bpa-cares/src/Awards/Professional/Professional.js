@@ -1,10 +1,19 @@
 import React, { Component } from 'react';
 import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
-export class AdvisorOTY extends Component {
+export class Professional extends Component {
   render() {
     return (
       <div className="awardWrapper">
         <h1>Professional Awards Program Overview</h1>
+        <h2>Awards</h2>
+          <ol>
+            <li>Advisor of the Year Award</li>
+            <li>Emerging Advisor of the Year Award</li>
+            <li>Emerging Professional of the Year Award</li>
+            <li>Hall of Fame Award</li>
+            <li>Outstanding Service Award</li>
+            <li>Student of the Year</li>
+          </ol>
         <h2>Purpose</h2>
           <p>The purpose of the Professional Awards Program is to acknowledge the dedication and service of our supporters.</p>
         <h2>Submission</h2>
