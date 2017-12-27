@@ -6,13 +6,57 @@ import registerServiceWorker from './registerServiceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
 import { HashRouter, Route } from 'react-router-dom';
 import { AdvisorOTY } from './Awards/Professional/AdvisorOTY';
+import { EmergingAdvisorOTY } from './Awards/Professional/EmergingAdvisorOTY';
+import { EmergingProfessionalOTY } from './Awards/Professional/EmergingProfessionalOTY';
+import { HallOfFame } from './Awards/Professional/HallOfFame';
+import { OutstandingService } from './Awards/Professional/OutstandingService';
+import { StudentOTY } from './Awards/Professional/StudentOTY';
+import { CommunityService } from './Awards/Service-Learning/CommunityService';
+import { EnvironmentalAction } from './Awards/Service-Learning/EnvironmentalAction';
+import { SafetyAwareness } from './Awards/Service-Learning/SafetyAwareness';
+import { ServiceLearningIndiv } from './Awards/Service-Learning/ServiceLearningIndiv';
+import { SpecialOlympics } from './Awards/Service-Learning/SpecialOlympics';
+import { AwardOfExcellence } from './Awards/SpecialRecognition/AwardOfExcellence';
+import { MarketingAndPR } from './Awards/SpecialRecognition/MarketingAndPR';
+import { MembershipExplosion } from './Awards/SpecialRecognition/MembershipExplosion';
+import { MeritScholar } from './Awards/SpecialRecognition/MeritScholar';
+import { ProfessionalCup } from './Awards/SpecialRecognition/ProfessionalCup';
+import { RecruiterOTY } from './Awards/SpecialRecognition/RecruiterOTY';
+import { SocialMedia } from './Awards/SpecialRecognition/SocialMedia';
 
 ReactDOM.render(
     (
         <HashRouter>
             <div>
                 <Route exact path="/" component={App}/>
-                <Route exact path="/Professional/Advisor-of-the-Year" component={AdvisorOTY}/>
+                <div id="Professional">
+                    <Route exact path="/Professional" component={App}/>
+                    <Route exact path="/Professional/Advisor-of-the-Year" component={AdvisorOTY}/>
+                    <Route exact path="/Professional/Emerging-Advisor" component={EmergingAdvisorOTY}/>
+                    <Route exact path="/Professional/Emerging-Professional" component={EmergingProfessionalOTY}/>
+                    <Route exact path="/Professional/Hall-Of-Fame" component={HallOfFame}/>
+                    <Route exact path="/Professional/Oustanding-Service-Award" component={OutstandingService}/>
+                    <Route exact path="/Professional/Student-of-the-Year" component={StudentOTY}/>
+                </div>
+                <div id="ServiceLearning">
+                    <Route exact path="/ServiceLearning/" component={App}/>
+                    <Route exact path="/ServiceLearning/Community-Service" component={CommunityService}/>
+                    <Route exact path="/ServiceLearning/Environmental-Action" component={EnvironmentalAction}/>
+                    <Route exact path="/ServiceLearning/Safety-Awareness" component={SafetyAwareness}/>
+                    <Route exact path="/ServiceLearning/Service-Learning-Individual" component={ServiceLearningIndiv}/>
+                    <Route exact path="/ServiceLearning/Special-Olympics" component={SpecialOlympics}/>
+                </div>
+                <div id="SpecialRecognition">
+                    <Route exact path="/SpecialRecognition/" component={App}/>
+                    <Route exact path="/SpecialRecognition/BPA-Marketing-and-Public-Relations" component={MarketingAndPR}/>
+                    <Route exact path="/SpecialRecognition/BPA-Merit-Scholar" component={MeritScholar}/>
+                    <Route exact path="/SpecialRecognition/Chapter-Activities-Award-of-Excellence" component={AwardOfExcellence}/>
+                    <Route exact path="/SpecialRecognition/Recruiter-of-the-Year" component={RecruiterOTY}/>
+                    <Route exact path="/SpecialRecognition/Membership-Explosion" component={MembershipExplosion}/>
+                    <Route exact path="/SpecialRecognition/Social-Media" component={SocialMedia}/>
+                    <Route exact path="/SpecialRecognition/Professional-Cup" component={ProfessionalCup}/>
+                </div>
+
             </div>
         </HashRouter>
     ), document.getElementById('root'));

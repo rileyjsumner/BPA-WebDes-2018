@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { ApplicationGuidelines } from '../PageComponents/GeneralComponents/ApplicationGuidelines.js';
-import{ Generalinfo } from '../PageComponents/GeneralComponents/Generalinfo.js';
-import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
-import {Recognition} from '../PageComponents/GeneralComponents/Recognition.js';
+import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/ApplicationGuidelines.js';
+import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
+import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
+import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
 export class StudentOTY extends Component {
   render() {
     return (
@@ -46,6 +46,7 @@ export class StudentOTY extends Component {
         <h2>Recognition</h2>
         <p>A maximum of one (1) individual from the Secondary and one (1) individual from the Post-Secondary Division will be recognized with a plaque on stage at the National Leadership Conference</p>
         <NonDiscrimination/>
+        </div>
       );
     }
   }

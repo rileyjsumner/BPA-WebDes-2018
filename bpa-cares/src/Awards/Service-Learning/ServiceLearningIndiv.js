@@ -29,6 +29,7 @@ render() {
       <h2>Recognition</h2>
         <p>500 service hours: Certificate of Achievement. One Award of Achievement per Division will be given to the individual with the highest number of service hours and recognition on-stage at the National Leadership Conference.</p>
         <NonDiscrimination/>
+        </div>
       );
     }
   }

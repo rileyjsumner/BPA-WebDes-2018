@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { ApplicationGuidelines } from '../PageComponents/GeneralComponents/ApplicationGuidelines.js';
-import{ Generalinfo } from '../PageComponents/GeneralComponents/Generalinfo.js';
-import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
-import {Recognition} from '../PageComponents/GeneralComponents/Recognition.js';
+import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/ApplicationGuidelines.js';
+import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
+import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
+import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
 export class HallOfFame extends Component {
   render() {
     return (
@@ -26,6 +26,7 @@ export class HallOfFame extends Component {
         <Generalinfo/>
         <Recognition/>
         <NonDiscrimination/>
+        </div>
       );
     }
   }
