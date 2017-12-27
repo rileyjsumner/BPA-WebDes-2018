@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class Application Guidelines extends Component {
+export class ApplicationGuidelines extends Component {
   render() {
     return (
         <div className="awardWrapper">
