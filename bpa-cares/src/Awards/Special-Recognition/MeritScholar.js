@@ -5,7 +5,7 @@ import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Dis
 import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
 import { SplashPage } from '../../PageComponents/SplashPage.js';
 
-export class SocialMedia extends Component {
+export class MeritScholar extends Component {
     render() {
         return (
             <div className="Wrapper">
