@@ -35,6 +35,8 @@ export class Navigation extends Component {
                                 <UncontrolledDropdown className="text-center" right>
                                     <DropdownToggle className="col-md-12" color="danger">Service Learning Awards</DropdownToggle>
                                     <DropdownMenu>
+                                        <DropdownItem href="/#/ServiceLearning">Service Learning</DropdownItem>
+                                        <DropdownItem divider></DropdownItem>
                                         <DropdownItem href="/#/ServiceLearning/Community-Service">Community Service Award</DropdownItem>
                                         <DropdownItem href="/#/ServiceLearning/Environmental-Action">Environmental Action/Awareness Award</DropdownItem>
                                         <DropdownItem href="/#/ServiceLearning/Safety-Awareness">Safety Awareness Award</DropdownItem>
@@ -48,6 +50,8 @@ export class Navigation extends Component {
                                 <UncontrolledDropdown className="text-center" right>
                                     <DropdownToggle className="col-md-12" color="danger">Special Recognition Awards</DropdownToggle>
                                     <DropdownMenu >
+                                        <DropdownItem href="/#/SpecialRecognition">Special Recognition</DropdownItem>
+                                        <DropdownItem divider></DropdownItem>
                                         <DropdownItem href="/#/SpecialRecognition/BPA-Marketing-and-Public-Relations">BPA Marketing & Public Relations Award</DropdownItem>
                                         <DropdownItem href="/#/SpecialRecognition/BPA-Merit-Scholar">BPA Merit Scholar Award</DropdownItem>
                                         <DropdownItem href="/#/SpecialRecognition/Chapter-Activities-Award-of-Excellence">Chapter Activities Award of Excellence</DropdownItem>
@@ -63,6 +67,8 @@ export class Navigation extends Component {
                                 <UncontrolledDropdown className="text-center" right>
                                     <DropdownToggle className="col-md-12" color="danger">Professional Awards</DropdownToggle>
                                     <DropdownMenu >
+                                        <DropdownItem href="/#/Professional">Professional</DropdownItem>
+                                        <DropdownItem divider></DropdownItem>
                                         <DropdownItem href="/#/Professional/Advisor-of-the-Year">Advisor of the Year Award</DropdownItem>
                                         <DropdownItem href="/#/Professional/Emerging-Advisor">Emerging Advisor of the Year Award</DropdownItem>
                                         <DropdownItem href="/#/Professional/Hall-Of-Fame">Hall of Fame Award</DropdownItem>

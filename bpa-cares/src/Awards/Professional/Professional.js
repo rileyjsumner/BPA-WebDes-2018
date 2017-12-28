@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { NonDiscrimination} from '../PageComponents/GeneralComponents/NonDiscrimination.js';
+import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
 import { SplashPage } from '../../PageComponents/SplashPage.js';
 
 export class Professional extends Component {

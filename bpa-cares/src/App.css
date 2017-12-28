@@ -83,3 +83,16 @@ html {
     justify-content: center;
 
 }
+.awardWrapper {
+    margin: 10px;
+}
+.awardWrapper h1 {
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+}
+.awardWrapper h2 {
+    font-family: 'Archivo Black', sans-serif;
+}
+.awardWrapper p, a, li {
+    font-family: 'Arvo', serif;
+}

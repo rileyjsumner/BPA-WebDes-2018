@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export class Generalinfo extends Component {
   render() {
     return (
-      <div className="awardWrapper">
-        <h1> General info</h1>
+      <div className="generalContent">
+        <h2> General info</h2>
         <p>NO E-MAIL OR MAIL APPLICATIONS WILL BE ACCEPTED.</p>
         <p>All materials submitted become the property of Business Professionals of America and may be used as the National Center deems appropriate.</p>
           <p>It is not necessary for the individual to attend the National Leadership Conference to participate in the program and receive the award. </p>

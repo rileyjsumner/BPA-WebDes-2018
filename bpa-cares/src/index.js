@@ -23,6 +23,9 @@ import { MeritScholar } from './Awards/Special-Recognition/MeritScholar';
 import { ProfessionalCup } from './Awards/Special-Recognition/ProfessionalCup';
 import { RecruiterOTY } from './Awards/Special-Recognition/RecruiterOTY';
 import { SocialMedia } from './Awards/Special-Recognition/SocialMedia';
+import { Professional } from './Awards/Professional/Professional'
+import { ServiceLearning } from './Awards/Service-Learning/ServiceLearning';
+import { SpecialRecognition } from './Awards/Special-Recognition/SpecialRecognition';
 
 ReactDOM.render(
     (
@@ -30,7 +33,7 @@ ReactDOM.render(
             <div>
                 <Route exact path="/" component={App}/>
                 <div id="Professional">
-                    <Route exact path="/Professional" component={App}/>
+                    <Route exact path="/Professional" component={Professional}/>
                     <Route exact path="/Professional/Advisor-of-the-Year" component={AdvisorOTY}/>
                     <Route exact path="/Professional/Emerging-Advisor" component={EmergingAdvisorOTY}/>
                     <Route exact path="/Professional/Emerging-Professional" component={EmergingProfessionalOTY}/>
@@ -39,7 +42,7 @@ ReactDOM.render(
                     <Route exact path="/Professional/Student-of-the-Year" component={StudentOTY}/>
                 </div>
                 <div id="ServiceLearning">
-                    <Route exact path="/ServiceLearning/" component={App}/>
+                    <Route exact path="/ServiceLearning/" component={ServiceLearning}/>
                     <Route exact path="/ServiceLearning/Community-Service" component={CommunityService}/>
                     <Route exact path="/ServiceLearning/Environmental-Action" component={EnvironmentalAction}/>
                     <Route exact path="/ServiceLearning/Safety-Awareness" component={SafetyAwareness}/>
@@ -47,7 +50,7 @@ ReactDOM.render(
                     <Route exact path="/ServiceLearning/Special-Olympics" component={SpecialOlympics}/>
                 </div>
                 <div id="SpecialRecognition">
-                    <Route exact path="/SpecialRecognition/" component={App}/>
+                    <Route exact path="/SpecialRecognition/" component={SpecialRecognition}/>
                     <Route exact path="/SpecialRecognition/BPA-Marketing-and-Public-Relations" component={MarketingAndPR}/>
                     <Route exact path="/SpecialRecognition/BPA-Merit-Scholar" component={MeritScholar}/>
                     <Route exact path="/SpecialRecognition/Chapter-Activities-Award-of-Excellence" component={AwardOfExcellence}/>
