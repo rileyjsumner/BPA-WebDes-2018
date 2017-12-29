@@ -8,13 +8,13 @@ export class Login extends Component {
             currentMode: 'read',
             userId: null
         };
-    }
+    },
     changeAppMode(newMode, productId) {
         this.setState({currentMode: newMode});
         if(productId !== undefined){
             this.setState({productId: productId});
         }
-    }
+    },
     render() {
         var modeComponent = <ReadUserComponent changeAppMode={this.changeAppMode}/>;
         switch(this.state.currentMode) {
