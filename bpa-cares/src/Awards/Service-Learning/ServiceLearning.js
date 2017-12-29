@@ -7,7 +7,7 @@ export class ServiceLearning extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>Service Learning Awards Program Overview</h1>
                     <div className="row">
                         <div className="col-md-6">

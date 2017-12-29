@@ -9,7 +9,7 @@ export class RecruiterOTY extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1> Recruiter of the Year Award</h1>
                     <div className="row">
                         <div className="col-md-6">

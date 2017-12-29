@@ -10,7 +10,7 @@ export class MeritScholar extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>BPA Merit Scholar Award</h1>
                     <div className="row">
                         <div className="col-md-6">

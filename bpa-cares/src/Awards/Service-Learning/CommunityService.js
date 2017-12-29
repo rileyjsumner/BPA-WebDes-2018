@@ -10,7 +10,7 @@ export class CommunityService extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>Community Service Award</h1>
                     <div className="row">
                         <div className="col-md-6">

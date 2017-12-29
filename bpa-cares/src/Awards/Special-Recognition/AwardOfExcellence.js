@@ -10,7 +10,7 @@ export class AwardOfExcellence extends Component {
           return (
               <div className="Wrapper">
                   <SplashPage />
-                  <div className="awardWrapper">
+                  <div className="awardWrapper slideUp">
                       <h1>Award Of Excellence</h1>
                       <div className="row">
                             <div className="col-md-6">
