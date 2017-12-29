@@ -24,5 +24,8 @@
 
             return $stmt;
         }
+        function create() {
+            
+        }
     }
 ?>
