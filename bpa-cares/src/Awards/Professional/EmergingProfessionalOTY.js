@@ -9,7 +9,7 @@ export class EmergingProfessionalOTY extends Component {
     render() {
         return (
             <div className="Wrapper">
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>Emerging Professional of the Year Award</h1>
                     <div className="row">
                         <div className="col-md-6">

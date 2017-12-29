@@ -10,7 +10,7 @@ export class MarketingAndPR extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
 
                 </div>
             </div>

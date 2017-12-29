@@ -10,6 +10,7 @@ export class SocialMedia extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+<<<<<<< HEAD
                 <div className="awardWrapper">
                 <h1>Social Media Award</h1>
                 <h2>Purpose</h2>
@@ -68,6 +69,10 @@ export class SocialMedia extends Component {
                 Achievement and recognition on-stage at the National Leadership Conference.</p>
                 <h2>Having trouble with the BPA Cares Award? Visit our Frequently Asked Questions page.<a href="http://www.bpa.org/service/caresfaq"></a>
                 <NonDiscrimination/>
+=======
+                <div className="awardWrapper slideUp">
+
+>>>>>>> cd8102dac36c0a5ada7362c59cdd7921eb3a4236
                 </div>
             </div>
         );

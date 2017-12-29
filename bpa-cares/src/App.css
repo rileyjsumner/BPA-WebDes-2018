@@ -83,8 +83,17 @@ html {
     justify-content: center;
 
 }
+.Wrapper {
+    background-color: #003261;
+}
 .awardWrapper {
-    margin: 10px;
+    margin: 50px 10px 30px 10px;
+    background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
+    background: -o-radial-gradient(#E8D5BE, #E0BF96);
+    background: -moz-radial-gradient(#E8D5BE, #E0BF96);
+    background: radial-gradient(#E8D5BE, #E0BF96);
+    border: 3px solid white;
+    padding: 10px;
 }
 .awardWrapper h1 {
     text-align: center;
@@ -92,6 +101,7 @@ html {
 }
 .awardWrapper h2 {
     font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5em;
 }
 .awardWrapper p, a, li {
     font-family: 'Arvo', serif;

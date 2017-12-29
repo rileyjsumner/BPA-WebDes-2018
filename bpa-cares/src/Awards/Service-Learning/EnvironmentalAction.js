@@ -10,7 +10,7 @@ export class EnvironmentalAction extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>Environmental Action/Awareness Award</h1>
                     <div className="row">
                         <div className="col-md-6">

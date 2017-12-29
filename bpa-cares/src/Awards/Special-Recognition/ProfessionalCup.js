@@ -9,7 +9,7 @@ export class ProfessionalCup extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1> The Professional Cup Award </h1>
                     <h1> (Outstanding State Participation) </h1>
                     <div className="row">
