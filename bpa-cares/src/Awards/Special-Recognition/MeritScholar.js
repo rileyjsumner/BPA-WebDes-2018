@@ -18,7 +18,7 @@ export class MeritScholar extends Component {
                             <p> To recognize individual members and advisors for their knowledge of Business Professionals of America and to motivate all members and advisors to learn as much as possible about the history, traditions, programs, and activities of the organization.</p>
                             <h2> Recognition</h2>
                             <p> Those participants achieving 90% or more on the test will receive a BPA Merit Scholar pin during the Awards Session at the National Leadership Conference.</p>
-                            <p> Having trouble with the BPA Cares Awards? Visit out Frequently Asked Questions page.</p>
+                            <h2> Having trouble with the BPA Cares Awards? Visit out Frequently Asked Questions page.<a href="http://www.bpa.org/service/caresfaq"></a></h2>
                         </div>
                         <div className="col-md-6">
                             <h2> Eligibility</h2>
