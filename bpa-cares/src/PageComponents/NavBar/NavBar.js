@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
 import {
-  Col,
   Collapse,
   Navbar,
   NavbarToggler,
@@ -26,7 +25,7 @@ export class Navigation extends Component {
     }
     render() {
         return (
-            <Navbar color="faded" light expand="md">
+            <Navbar  color="faded" light expand="md">
                 <NavbarToggler onClick={this.toggle} />
                 <Collapse isOpen={this.state.isOpen} navbar>
                     <div className="navAlign">

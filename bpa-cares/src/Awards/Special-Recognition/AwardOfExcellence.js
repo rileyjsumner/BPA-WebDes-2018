@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/ApplicationGuidelines.js';
 import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
-import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
 import { SplashPage } from '../../PageComponents/SplashPage.js';
 
 export class AwardOfExcellence extends Component {
@@ -26,7 +25,7 @@ export class AwardOfExcellence extends Component {
                               include all activity descriptions. Partial applications will not be accepted or combined. Do not begin
                               the application online submission form until you have completed all activities.</p>
                               <p>Applications due April 1.</p>
-                              <p> <a href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform"></a></p>
+                              <p> <a href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform">Online Application</a></p>
                               <h2>Required Activities</h2>
                               <p>Activities for this award can be duplicated from other activity submissions.</p>
                               <p> The following award applications are required to be submitted (applicant is not required to

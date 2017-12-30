@@ -1,23 +1,26 @@
 import React, { Component } from 'react';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import {TopActionsComponent} from './TopActionsComponent.js';
+import {UsersTable} from './UsersTable.js';
+import $ from 'jquery';
 import '../../App.css';
 
-export class Login extends Component {
-    getInitialState() {
-        return {
+export class ReadUserComponent extends Component {
+    constructor() {
+        super()
+        this.state = {
             users: []
-        };
-    },
+        }
+    }
     componentDidMount() {
-        this.serverRequest = $.get("localhost:3000/#/RestAPI/UserCRUD/read.php", function(products) {
+        this.serverRequest = $.get("localhost:3000/#/RestAPI/UserCRUD/read.php", function(users) {
             this.setState({
                 users: users.records
             });
         }.bind(this));
-    },
+    }
     componentWillUnmount() {
         this.serverRequest.abort();
-    },
+    }
     render() {
         var filteredUsers = this.state.users;
         $('.page-header  h1').text('Read Users');

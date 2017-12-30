@@ -26,6 +26,7 @@ import { SocialMedia } from './Awards/Special-Recognition/SocialMedia';
 import { Professional } from './Awards/Professional/Professional'
 import { ServiceLearning } from './Awards/Service-Learning/ServiceLearning';
 import { SpecialRecognition } from './Awards/Special-Recognition/SpecialRecognition';
+import { Login } from './Progress/Login/Login';
 
 ReactDOM.render(
     (
@@ -59,7 +60,9 @@ ReactDOM.render(
                     <Route exact path="/SpecialRecognition/Social-Media" component={SocialMedia}/>
                     <Route exact path="/SpecialRecognition/Professional-Cup" component={ProfessionalCup}/>
                 </div>
-
+                <div id="Progress">
+                    <Route exact path="/Login" component={Login}/>
+                </div>
             </div>
         </HashRouter>
     ), document.getElementById('root'));

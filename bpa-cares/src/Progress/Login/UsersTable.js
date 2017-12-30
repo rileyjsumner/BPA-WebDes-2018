@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import {UserRow} from './UsersRow.js';
 import '../../App.css';
 
 export class UsersTable extends Component {
