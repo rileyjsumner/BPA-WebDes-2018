@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import { SplashPage } from '../../PageComponents/SplashPage.js';import '../../animation.css';
 
 export class SpecialOlympics extends Component {
     render() {

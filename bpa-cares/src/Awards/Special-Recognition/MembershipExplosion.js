@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import { SplashPage } from '../../PageComponents/SplashPage.js';import '../../animation.css';
 
 export class MembershipExplosion extends Component {
     render() {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideup">
                     <h1>Membership Explosion Award</h1>
                     <div className="row">
                         <div className="col-md-6">

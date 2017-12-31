@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/ApplicationGuidelines.js';
 import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import { SplashPage } from '../../PageComponents/SplashPage.js';import '../../animation.css';
 
 export class AwardOfExcellence extends Component {
     render() {

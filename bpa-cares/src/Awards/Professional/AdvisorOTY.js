@@ -3,14 +3,15 @@ import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/Ap
 import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
 import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
-import { SplashPage } from '../../PageComponents/SplashPage.js';
+import { SplashPage } from '../../PageComponents/SplashPage.js';import '../../animation.css';
+import '../../animation.css';
 
 export class AdvisorOTY extends Component {
     render() {
         return (
             <div className="Wrapper">
                 <SplashPage/>
-                <div className="awardWrapper">
+                <div className="awardWrapper slideUp">
                     <h1>Advisor of the Year Award</h1>
                     <div className="row">
                         <div className="col-md-6">
