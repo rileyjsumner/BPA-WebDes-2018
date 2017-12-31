@@ -11,13 +11,13 @@
         public $email;
         public $officer_title;
 
-        public function __construct($db) {
+        public function __construct(PDO $db) {
             $this->conn = $db;
         }
 
         function read() {
             $query = "SELECT * FROM users";
-
+            echo($query);
             $stmt = $this->conn->prepare($query);
 
             $stmt->execute();

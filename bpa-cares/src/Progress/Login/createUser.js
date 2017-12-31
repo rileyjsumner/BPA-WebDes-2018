@@ -22,7 +22,7 @@ export class CreateUserComponent extends Component {
         this.onTitleChange = this.onTitleChange.bind(this);
     }
     componentDidMount() {
-        this.serverRequest = $.get("./RestAPI/UserCRUD/create.php", function(users) {
+        this.serverRequest = $.get("http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/read.php", function(users) {
             this.setState({
                 users: users.records
             });
@@ -50,6 +50,14 @@ export class CreateUserComponent extends Component {
         this.setState({officer_title: e.target.value});
     }
     onSave(e) {
+        console.log(
+            this.state.member_id + "\n" +
+            this.state.name + "\n" +
+            this.state.state + "\n" +
+            this.state.chapter + "\n" +
+            this.state.email + "\n" +
+            this.state.officer_title + "\n"
+        );
         var form_data={
             member_id: this.state.member_id,
             name: this.state.name,
@@ -59,7 +67,7 @@ export class CreateUserComponent extends Component {
             officer_title: this.state.officer_title
         };
         $.ajax({
-            url: "http://localhost:5000/RestAPI/UserCRUD/create.php",
+            url: "http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/create.php",
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify(form_data),
@@ -72,6 +80,7 @@ export class CreateUserComponent extends Component {
                 this.setState({chapter:""});
                 this.setState({email:""});
                 this.setState({officer_title:""});
+                console.log("resp:" + response['message']);
             }.bind(this),
             error: function(xhr, resp, text) {
                 console.log(xhr, resp, text);
@@ -125,7 +134,7 @@ export class CreateUserComponent extends Component {
                                 <td><input type='text' className='form-control' value={this.state.officer_title} required onChange={this.onTitleChange}/></td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colSpan="2">
                                     <button className="btn btn-primary" onClick={this.onSave}>Save</button>
                                 </td>
                             </tr>

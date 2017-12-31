@@ -16,7 +16,7 @@ export class UpdateUserComponent extends Component {
         }
     }
     componentDidMount() {
-        this.serverRequest = $.get("./RestAPI/UserCRUD/create.php", function(users) {
+        this.serverRequest = $.get("http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/update.php", function(users) {
             this.setState({
                 users: users.records
             });

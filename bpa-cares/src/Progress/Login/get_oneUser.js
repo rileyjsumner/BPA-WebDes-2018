@@ -17,7 +17,7 @@ export class ReadOneUserComponent extends Component {
     }
     componentDidMount() {
         var userId = this.props.userId;
-        this.serverRequestUser = $.get("/RestAPI/UserCRUD/read.php?id="+userId, function(user) {
+        this.serverRequestUser = $.get("http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/read_one.php?id="+userId, function(user) {
             this.setState({
                 id: user.id,
                 member_id: user.member_id,

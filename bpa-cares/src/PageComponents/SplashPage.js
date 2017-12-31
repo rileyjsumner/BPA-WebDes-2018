@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import * as Scroll from 'react-scroll';
-import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import '../App.css';
 import upIcon from '../pics/upIcon.png';
 import { Navigation } from './NavBar/NavBar.js';
@@ -43,7 +42,7 @@ export class SplashPage extends Component {
                         </div>
                     </div>
                 </div>
-                <a className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75"/></a>
+                <a className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75" alt=""/></a>
             </div>
         );
     }

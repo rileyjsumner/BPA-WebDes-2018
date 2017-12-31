@@ -23,7 +23,7 @@
     $user->email = $data->email;
     $user->officer_title = $data->officer_title;
 
-    if($product->create()) {
+    if($user->create()) {
         echo '{';
             echo '"message":"User Was Created"';
         echo '}';

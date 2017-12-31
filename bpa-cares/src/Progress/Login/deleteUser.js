@@ -9,7 +9,7 @@ export class DeleteUserComponent extends Component {
     onDelete(e) {
         var userId = this.props.userId;
         $.ajax({
-            url: "http://localhost:5000/RestAPI/UserCRUD/delete.php",
+            url: "http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/delete.php",
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify({'id':userId}),

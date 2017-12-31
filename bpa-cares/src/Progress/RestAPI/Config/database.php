@@ -3,7 +3,7 @@
         private $host = 'localhost';
         private $db_name = 'bpa_cares';
         private $db_user = 'rileyODS';
-        private $db_pass = 'Riley4ODS';
+        private $db_pass = 'riley4ODS!';
 
         public $conn;
 
