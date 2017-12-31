@@ -18,13 +18,13 @@
     $user->readOne();
 
     $user_arr = array(
-        "id"=> $id,
-        "member_id"=>$member_id,
-        "name"=>$name,
-        "state"=>$state,
-        "chapter"=>$chapter,
-        "email"=>$email,
-        "officer_title"=>$officer_title
+        "id"=> $user->id,
+        "member_id"=>$user->member_id,
+        "name"=>$user->name,
+        "state"=>$user->state,
+        "chapter"=>$user->chapter,
+        "email"=>$user->email,
+        "officer_title"=>$user->officer_title
     );
 
     print_r(json_encode($user_arr));

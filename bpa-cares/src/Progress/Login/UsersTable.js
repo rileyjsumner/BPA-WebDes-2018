@@ -13,7 +13,7 @@ export class UsersTable extends Component {
             !rows.length ?
                 <div className='alert alert-danger'>No Users Found</div>
                 :
-                <table classname='table table-bordered table-hover'>
+                <table className='table table-bordered table-hover'>
                     <thead>
                         <tr>
                             <th>Id</th>
@@ -23,6 +23,7 @@ export class UsersTable extends Component {
                             <th>Chapter</th>
                             <th>Email</th>
                             <th>Officer Title</th>
+                            <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>

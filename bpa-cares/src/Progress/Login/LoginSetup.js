@@ -10,14 +10,14 @@ export class LoginSetup extends Component {
         super()
         this.state = {
             currentMode: 'read',
-            productId: null
+            userId: null
         }
         this.changeAppMode = this.changeAppMode.bind(this);
     }
-    changeAppMode(newMode, productId) {
+    changeAppMode(newMode, userId) {
         this.setState({currentMode: newMode});
-        if(productId !== undefined){
-            this.setState({productId: productId});
+        if(userId !== undefined){
+            this.setState({userId: userId});
         }
     }
     render() {
@@ -26,16 +26,16 @@ export class LoginSetup extends Component {
             case 'read':
                 break;
             case 'readOne':
-                modeComponent = <ReadOneUserComponent productId={this.state.productId} changeAppMode={this.changeAppMode}/>;
+                modeComponent = <ReadOneUserComponent userId={this.state.userId} changeAppMode={this.changeAppMode}/>;
                 break;
             case 'create':
                 modeComponent = <CreateUserComponent changeAppMode={this.changeAppMode}/>;
                 break;
             case 'update':
-                modeComponent = <UpdateUserComponent productId={this.state.productId} changeAppMode={this.changeAppMode}/>;
+                modeComponent = <UpdateUserComponent userId={this.state.userId} changeAppMode={this.changeAppMode}/>;
                 break;
             case 'delete':
-                modeComponent = <DeleteUserComponent productId={this.state.productId} changeAppMode={this.changeAppMode}/>;
+                modeComponent = <DeleteUserComponent userId={this.state.userId} changeAppMode={this.changeAppMode}/>;
                 break;
             default:
                 break;

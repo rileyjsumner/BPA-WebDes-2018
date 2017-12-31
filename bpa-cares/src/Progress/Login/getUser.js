@@ -17,6 +17,7 @@ export class ReadUserComponent extends Component {
                 users: users.records
             });
         }.bind(this));
+        console.log(this.state.users);
     }
     componentWillUnmount() {
         this.serverRequest.abort();

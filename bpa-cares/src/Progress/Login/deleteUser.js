@@ -31,7 +31,7 @@ export class DeleteUserComponent extends Component {
                         <div className="panel-footer clearfix">
                             <div className="text-align-center">
                                 <button onClick={this.onDelete} className="btn btn-danger m-r-1em">Yes</button>
-                                <button onClick={()=>this.props.changeAppMode('read')} classname="btn btn-primary">No</button>
+                                <button onClick={()=>this.props.changeAppMode('read')} className="btn btn-primary m-r-1em">No</button>
                             </div>
                         </div>
                     </div>

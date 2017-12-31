@@ -17,7 +17,6 @@
 
         function read() {
             $query = "SELECT * FROM users";
-            echo($query);
             $stmt = $this->conn->prepare($query);
 
             $stmt->execute();

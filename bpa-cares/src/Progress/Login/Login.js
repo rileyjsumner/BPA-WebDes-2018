@@ -7,7 +7,6 @@ export class Login extends Component {
     render() {
         return (
             <div className="Page">
-                <SplashPage/>
                 <LoginSetup/>
             </div>
         );
