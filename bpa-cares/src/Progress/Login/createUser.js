@@ -22,7 +22,7 @@ export class CreateUserComponent extends Component {
         this.onTitleChange = this.onTitleChange.bind(this);
     }
     componentDidMount() {
-        this.serverRequest = $.get("localhost:3000/#/RestAPI/UserCRUD/create.php", function(users) {
+        this.serverRequest = $.get("./RestAPI/UserCRUD/create.php", function(users) {
             this.setState({
                 users: users.records
             });
@@ -59,7 +59,7 @@ export class CreateUserComponent extends Component {
             officer_title: this.state.officer_title
         };
         $.ajax({
-            url: "http://localhost:3000/#/RestAPI/UserCRUD/create.php",
+            url: "http://localhost:5000/RestAPI/UserCRUD/create.php",
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify(form_data),

@@ -1,8 +1,30 @@
 import React, { Component } from 'react';
+import * as Scroll from 'react-scroll';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import '../App.css';
+import upIcon from '../pics/upIcon.png';
 import { Navigation } from './NavBar/NavBar.js';
 
 export class SplashPage extends Component {
+    componentDidMount() {
+        Events.scrollEvent.register('begin', function(to, element) {
+            console.log("begin", arguments);
+        });
+        Events.scrollEvent.register('end', function(to, element) {
+            console.log("end", arguments);
+        });
+        scrollSpy.update();
+    }
+    componentWillUnmount() {
+        Events.scrollEvent.remove('begin');
+        Events.scrollEvent.remove('end');
+    }
+    scrollToTop() {
+        scroll.scrollToTop();
+    }
+    handleSetActive(to) {
+        console.log(to);
+    }
     render() {
         return (
             <div className="homeWrapper">
@@ -21,6 +43,7 @@ export class SplashPage extends Component {
                         </div>
                     </div>
                 </div>
+                <a className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75"/></a>
             </div>
         );
     }

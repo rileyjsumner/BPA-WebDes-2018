@@ -2,19 +2,24 @@
   "name": "bpa-cares",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://www.rileysumner.com/bpa-cares",
   "dependencies": {
     "axios": "^0.17.1",
     "bootstrap": "^4.0.0-beta.2",
     "create-react-app": "^1.4.3",
+    "http-server": "^0.10.0",
     "jquery": "^3.2.1",
     "node": "^9.3.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
+    "react-scroll": "^1.7.4",
+    "react-scroll-up": "^1.3.3",
     "reactstrap": "^5.0.0-alpha.4"
   },
   "devDependencies": {
+    "concurrently": "^3.5.1",
     "react-scripts": "^1.0.17"
   },
   "scripts": {

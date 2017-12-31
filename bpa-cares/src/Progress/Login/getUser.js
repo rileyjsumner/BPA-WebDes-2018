@@ -12,7 +12,7 @@ export class ReadUserComponent extends Component {
         }
     }
     componentDidMount() {
-        this.serverRequest = $.get("localhost:3000/#/RestAPI/UserCRUD/read.php", function(users) {
+        this.serverRequest = $.get("/RestAPI/UserCRUD/read.php", function(users) {
             this.setState({
                 users: users.records
             });

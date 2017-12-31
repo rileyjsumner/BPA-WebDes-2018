@@ -106,3 +106,9 @@ html {
 .awardWrapper p, a, li {
     font-family: 'Arvo', serif;
 }
+.scroller {
+    bottom: 10px;
+    right: 20px;
+    position: fixed;
+    z-index: 2;
+}

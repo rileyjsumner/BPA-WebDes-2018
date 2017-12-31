@@ -35,7 +35,7 @@
         echo json_encode($user_arr);
     } else {
         echo json_encode(array(
-            "message"=>"No User Found"
+            "message"=>"No Users Found"
         ));
     }
 ?>
