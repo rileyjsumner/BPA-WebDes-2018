@@ -15,6 +15,7 @@
 
     $data = json_decode(file_get_contents("php://input"));
 
+    echo $data->id;
     $user->id = $data->id;
     $user->member_id = $data->member_id;
     $user->name = $data->name;

@@ -14,12 +14,23 @@ export class UpdateUserComponent extends Component {
             email: null,
             officer_title: null
         }
+        this.onMemberIdChange = this.onMemberIdChange.bind(this);
+        this.onNameChange = this.onNameChange.bind(this);
+        this.onStateChange = this.onStateChange.bind(this);
+        this.onChapterChange = this.onChapterChange.bind(this);
+        this.onEmailChange = this.onEmailChange.bind(this);
+        this.onTitleChange = this.onTitleChange.bind(this);
     }
     componentDidMount() {
-        this.serverRequest = $.get("http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/update.php", function(users) {
-            this.setState({
-                users: users.records
-            });
+        var userId = this.props.userId;
+        this.serverRequest = $.get("http://www.rileysumner.com/bpa-cares/RestAPI/UserCRUD/read_one.php?id="+userId, function(user) {
+                this.setState({member_id:user.id});
+                this.setState({member_id:user.member_id});
+                this.setState({name:user.name});
+                this.setState({state:user.state});
+                this.setState({chapter:user.chapter});
+                this.setState({email:user.email});
+                this.setState({officer_title:user.officer_title});
         }.bind(this));
     }
     componentWillUnmount() {
@@ -53,7 +64,7 @@ export class UpdateUserComponent extends Component {
             officer_title: this.state.officer_title
         };
         $.ajax({
-            url: "http://localhost:5000/RestAPI/UserCRUD/update.php",
+            url: "http://rileysumner.com/bpa-cares/RestAPI/UserCRUD/update.php",
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify(form_data),
