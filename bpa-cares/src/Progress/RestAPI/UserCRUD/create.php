@@ -21,6 +21,7 @@
     $user->state = $data->state;
     $user->chapter = $data->chapter;
     $user->email = $data->email;
+    $user->password = $data->password;
     $user->officer_title = $data->officer_title;
 
     if($user->create()) {

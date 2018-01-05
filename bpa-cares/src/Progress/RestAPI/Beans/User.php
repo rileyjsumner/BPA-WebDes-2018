@@ -9,7 +9,9 @@
         public $state;
         public $chapter;
         public $email;
+        public $password;
         public $officer_title;
+        public $sql;
 
         public function __construct(PDO $db) {
             $this->conn = $db;
@@ -18,7 +20,7 @@
         function read() {
             $query = "SELECT * FROM users";
             $stmt = $this->conn->prepare($query);
-
+            $this->sql = $query;
             $stmt->execute();
 
             return $stmt;
@@ -31,6 +33,7 @@
                 state=:state,
                 chapter=:chapter,
                 email=:email,
+                password=:password,
                 officer_title=:officer_title";
             $stmt = $this->conn->prepare($query);
 
@@ -40,6 +43,7 @@
             $this->state=htmlspecialchars(strip_tags($this->state));
             $this->chapter=htmlspecialchars(strip_tags($this->chapter));
             $this->email=htmlspecialchars(strip_tags($this->email));
+            $this->password=htmlspecialchars(strip_tags($this->password));
             $this->officer_title=htmlspecialchars(strip_tags($this->officer_title));
 
             $stmt->bindParam(":id", $this->id);
@@ -68,7 +72,10 @@
             $this->state = $row['state'];
             $this->chapter = $row['chapter'];
             $this->email = $row['email'];
+            $this->password = $row['password'];
             $this->officer_title = $row['officer_title'];
+
+            $this->sql = $query;
         }
         function update() {
             $query = "UPDATE ".$this->table_name." SET
@@ -96,6 +103,8 @@
             $stmt->bindParam(":officer_title", $this->officer_title);
             $stmt->bindParam(":id", $this->id);
 
+            $this->sql = $query;
+
             return $stmt->execute() ? true:false;
         }
         function delete() {
@@ -105,6 +114,8 @@
             $this->id=htmlspecialchars(strip_tags($this->id));
 
             $stmt->bindParam(1, $this->id);
+
+            $this->sql = $query;
 
             return $stmt->execute() ? true:false;
         }

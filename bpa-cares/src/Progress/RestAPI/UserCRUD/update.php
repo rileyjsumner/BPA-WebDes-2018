@@ -27,10 +27,12 @@
     if($user->update()) {
         echo '{';
             echo '"message": "User Was Updated"';
+            echo '"query": '.$user->query;
         echo '}';
     } else {
         echo '{';
             echo '"message": "Unable to Update User"';
+            echo '"query": '.$user->query;
         echo '}';
     }
 ?>

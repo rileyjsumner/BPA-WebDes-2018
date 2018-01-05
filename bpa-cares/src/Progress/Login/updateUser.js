@@ -8,18 +8,21 @@ export class UpdateUserComponent extends Component {
         this.state = {
             id: -1,
             member_id: -1,
-            name: null,
-            state: null,
-            chapter: null,
-            email: null,
-            officer_title: null
+            name: "",
+            state: "",
+            chapter: "",
+            email: "",
+            password: "",
+            officer_title: ""
         }
         this.onMemberIdChange = this.onMemberIdChange.bind(this);
         this.onNameChange = this.onNameChange.bind(this);
         this.onStateChange = this.onStateChange.bind(this);
         this.onChapterChange = this.onChapterChange.bind(this);
         this.onEmailChange = this.onEmailChange.bind(this);
+        this.onPasswordChange = this.onPasswordChange.bind(this);
         this.onTitleChange = this.onTitleChange.bind(this);
+        this.onSave = this.onSave.bind(this);
     }
     componentDidMount() {
         var userId = this.props.userId;
@@ -30,6 +33,7 @@ export class UpdateUserComponent extends Component {
                 this.setState({state:user.state});
                 this.setState({chapter:user.chapter});
                 this.setState({email:user.email});
+                this.setState({password:user.password});
                 this.setState({officer_title:user.officer_title});
         }.bind(this));
     }
@@ -51,6 +55,9 @@ export class UpdateUserComponent extends Component {
     onEmailChange(e) {
         this.setState({email: e.target.value});
     }
+    onPasswordChange(e) {
+        this.setState({password: e.target.value});
+    }
     onTitleChange(e) {
         this.setState({officer_title: e.target.value});
     }
@@ -61,6 +68,7 @@ export class UpdateUserComponent extends Component {
             state: this.state.state,
             chapter: this.state.chapter,
             email: this.state.email,
+            password: this.state.password,
             officer_title: this.state.officer_title
         };
         $.ajax({
@@ -70,12 +78,12 @@ export class UpdateUserComponent extends Component {
             data: JSON.stringify(form_data),
             success: function(response) {
                 this.setState({successCreation: response['message']});
-
                 this.setState({member_id:-1});
                 this.setState({name:""});
                 this.setState({state:""});
                 this.setState({chapter:""});
                 this.setState({email:""});
+                this.setState({password:""});
                 this.setState({officer_title:""});
             }.bind(this),
             error: function(xhr, resp, text) {
@@ -88,21 +96,21 @@ export class UpdateUserComponent extends Component {
         return(
             <div>
                 {
-                    this.state.successUpdate === "User Was Updated" ?
+                    this.state.successCreation === "User Was Updated" ?
                         <div className="alert alert-success">
                             User Was Updated
                         </div>
                     : null
                 }
                 {
-                    this.state.successUpdate === "Unable to Update User" ?
+                    this.state.successCreation === "Unable to Update User" ?
                         <div className="alert alert-danger">
                             Unable to UpdateUser
                         </div>
                     : null
                 }
                 <a href="#/Login" onClick={()=>this.props.changeAppMode('read')} className='btn btn-primary margin-bottom-1em'>Read</a>
-                <form onSubmit={this.onSave}>
+                <form>
                     <table className="table table-bordered table-hover">
                         <tbody>
                             <tr>
@@ -126,11 +134,15 @@ export class UpdateUserComponent extends Component {
                                 <td><input type='text' className='form-control' value={this.state.email} required onChange={this.onEmailChange}/></td>
                             </tr>
                             <tr>
+                                <td>Password</td>
+                                <td><input type='password' className='form-control' value={this.state.password} required onChange={this.onPasswordChange}/></td>
+                            </tr>
+                            <tr>
                                 <td>Officer Title</td>
                                 <td><input type='text' className='form-control' value={this.state.officer_title} required onChange={this.onTitleChange}/></td>
                             </tr>
                             <tr>
-                                <td colspan="2">
+                                <td colSpan="2">
                                     <button className="btn btn-primary" onClick={this.onSave}>Save</button>
                                 </td>
                             </tr>

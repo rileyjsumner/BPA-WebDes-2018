@@ -3,6 +3,10 @@ import $ from 'jquery';
 import '../../App.css';
 
 export class DeleteUserComponent extends Component {
+    constructor() {
+        super();
+        this.onDelete = this.onDelete.bind(this);
+    }
     componentDidMount(){
         $(".page-header h1").text("Delete Product");
     }
