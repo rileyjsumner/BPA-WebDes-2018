@@ -28,11 +28,13 @@ import { ServiceLearning } from './Awards/Service-Learning/ServiceLearning';
 import { SpecialRecognition } from './Awards/Special-Recognition/SpecialRecognition';
 import { Login } from './Progress/Login/Login';
 
+
 ReactDOM.render(
     (
         <HashRouter>
             <div>
                 <Route exact path="/" component={App}/>
+                <Route exact path="/Home" component={App}/>
                 <div id="Professional">
                     <Route exact path="/Professional" component={Professional}/>
                     <Route exact path="/Professional/Advisor-of-the-Year" component={AdvisorOTY}/>

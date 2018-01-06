@@ -5,6 +5,8 @@ import {
   Navbar,
   NavbarToggler,
   Nav,
+  NavItem,
+  NavLink,
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
@@ -32,7 +34,13 @@ export class Navigation extends Component {
                         <Nav className="row" vertical>
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger">Service Learning Awards</DropdownToggle>
+                                    <DropdownToggle href="./#/Home" className="col-md-12" color="danger">Home</DropdownToggle>
+                                </UncontrolledDropdown>
+                            </div>
+                            <br />
+                            <div>
+                                <UncontrolledDropdown className="text-center">
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Service Learning Awards</DropdownToggle>
                                     <DropdownMenu>
                                         <DropdownItem href="./#/ServiceLearning">Service Learning</DropdownItem>
                                         <DropdownItem divider></DropdownItem>
@@ -47,7 +55,7 @@ export class Navigation extends Component {
                             <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger">Special Recognition Awards</DropdownToggle>
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Special Recognition Awards</DropdownToggle>
                                     <DropdownMenu >
                                         <DropdownItem href="./#/SpecialRecognition">Special Recognition</DropdownItem>
                                         <DropdownItem divider></DropdownItem>
@@ -64,7 +72,7 @@ export class Navigation extends Component {
                             <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger">Professional Awards</DropdownToggle>
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Professional Awards</DropdownToggle>
                                     <DropdownMenu >
                                         <DropdownItem href="./#/Professional">Professional</DropdownItem>
                                         <DropdownItem divider></DropdownItem>

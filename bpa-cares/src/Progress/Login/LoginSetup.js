@@ -5,6 +5,7 @@ import {ReadOneUserComponent} from './get_oneUser.js';
 import {UpdateUserComponent} from './updateUser.js';
 import {DeleteUserComponent} from './deleteUser.js';
 import {ReadUserComponent} from './getUser.js';
+import {LoginUserComponent} from './loginUser.js';
 export class LoginSetup extends Component {
     constructor() {
         super()
@@ -36,6 +37,9 @@ export class LoginSetup extends Component {
                 break;
             case 'delete':
                 modeComponent = <DeleteUserComponent userId={this.state.userId} changeAppMode={this.changeAppMode}/>;
+                break;
+            case 'login':
+                modeComponent = <LoginUserComponent changeAppMode={this.changeAppMode}/>;
                 break;
             default:
                 break;

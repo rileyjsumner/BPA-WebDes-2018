@@ -25,6 +25,22 @@
 
             return $stmt;
         }
+        function login() {
+            $query = "SELECT * FROM ".$this->table_name." WHERE email=:email AND password=:password";
+
+            $stmt = $this->conn->prepare($query);
+            $this->email=htmlspecialchars(strip_tags($this->email));
+            $this->password=htmlspecialchars(strip_tags($this->password));
+
+            $stmt->bindParam(":email", $this->email);
+            $stmt->bindParam(":password", $this->email);
+
+            $stmt->execute();
+
+            $count = $stmt->rowCount();
+            return $count;
+
+        }
         function create() {
             $query = "INSERT INTO ".$this->table_name." SET
                 id=:id,

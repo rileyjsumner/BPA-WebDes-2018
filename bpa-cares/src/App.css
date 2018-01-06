@@ -5,7 +5,7 @@ font-family: 'Arvo', serif; - Body
 font-family: 'Archivo Black', sans-serif; - Sub-heading
 font-family: 'Lalezar', cursive; - Heading
 */
-html {
+.App, html {
     background: #003261;
     background: -webkit-radial-gradient(#003261, #004061);
     background: -o-radial-gradient(#003261, #004061);
@@ -111,4 +111,18 @@ html {
     right: 20px;
     position: fixed;
     z-index: 2;
+}
+.homeContent {
+    background-color: #003261;
+}
+#homeRow {
+    margin: 50px 10px 30px 10px;
+    padding: 15px;
+    background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
+    background: -o-radial-gradient(#E8D5BE, #E0BF96);
+    background: -moz-radial-gradient(#E8D5BE, #E0BF96);
+    background: radial-gradient(#E8D5BE, #E0BF96);
+    border: 3px solid white;
+}
+.video {
 }
