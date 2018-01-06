@@ -80,6 +80,8 @@ export class CreateUserComponent extends Component {
                 this.setState({email:""});
                 this.setState({password:""});
                 this.setState({officer_title:""});
+
+                window.location.replace("/Home");
             }.bind(this),
             error: function(xhr, resp, text) {
                 console.log(xhr, resp, text);

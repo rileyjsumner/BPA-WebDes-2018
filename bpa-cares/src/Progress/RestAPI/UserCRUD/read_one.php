@@ -24,6 +24,7 @@
         "state"=>$user->state,
         "chapter"=>$user->chapter,
         "email"=>$user->email,
+        "password"=>$user->password,
         "officer_title"=>$user->officer_title
     );
 

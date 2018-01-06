@@ -12,6 +12,7 @@ export class ReadOneUserComponent extends Component {
             state: null,
             chapter: null,
             email: null,
+            password: null,
             officer_title: null
         }
     }
@@ -25,6 +26,7 @@ export class ReadOneUserComponent extends Component {
                 state: user.state,
                 chapter: user.chapter,
                 email: user.email,
+                password: user.password,
                 officer_title: user.officer_title
             });
         }.bind(this));
@@ -64,6 +66,10 @@ export class ReadOneUserComponent extends Component {
                             <tr>
                                 <td>Email</td>
                                 <td>{this.state.email}</td>
+                            </tr>
+                            <tr>
+                                <td>Password</td>
+                                <td>{this.state.password}</td>
                             </tr>
                             <tr>
                                 <td>Officer Title</td>

@@ -15,24 +15,22 @@
 
     $data = json_decode(file_get_contents("php://input"));
 
-    echo $data->id;
     $user->id = $data->id;
     $user->member_id = $data->member_id;
     $user->name = $data->name;
     $user->state = $data->state;
     $user->chapter = $data->chapter;
     $user->email = $data->email;
+    $user->password = $data->password;
     $user->officer_title = $data->officer_title;
 
     if($user->update()) {
         echo '{';
             echo '"message": "User Was Updated"';
-            echo '"query": '.$user->query;
         echo '}';
     } else {
         echo '{';
             echo '"message": "Unable to Update User"';
-            echo '"query": '.$user->query;
         echo '}';
     }
 ?>

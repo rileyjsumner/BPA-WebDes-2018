@@ -52,6 +52,7 @@
             $stmt->bindParam(":state", $this->state);
             $stmt->bindParam(":chapter", $this->chapter);
             $stmt->bindParam(":email", $this->email);
+            $stmt->bindParam(":password", $this->password);
             $stmt->bindParam(":officer_title", $this->officer_title);
 
             return $stmt->execute() ? true:false;
@@ -75,7 +76,6 @@
             $this->password = $row['password'];
             $this->officer_title = $row['officer_title'];
 
-            $this->sql = $query;
         }
         function update() {
             $query = "UPDATE ".$this->table_name." SET
@@ -84,6 +84,7 @@
                     state=:state,
                     chapter=:chapter,
                     email=:email,
+                    password=:password,
                     officer_title=:officer_title
                 WHERE id = :id";
             $stmt = $this->conn->prepare($query);
@@ -93,6 +94,7 @@
             $this->state=htmlspecialchars(strip_tags($this->state));
             $this->chapter=htmlspecialchars(strip_tags($this->chapter));
             $this->email=htmlspecialchars(strip_tags($this->email));
+            $this->password=htmlspecialchars(strip_tags($this->password));
             $this->officer_title=htmlspecialchars(strip_tags($this->officer_title));
 
             $stmt->bindParam(":member_id", $this->member_id);
@@ -100,6 +102,7 @@
             $stmt->bindParam(":state", $this->state);
             $stmt->bindParam(":chapter", $this->chapter);
             $stmt->bindParam(":email", $this->email);
+            $stmt->bindParam(":password", $this->password);
             $stmt->bindParam(":officer_title", $this->officer_title);
             $stmt->bindParam(":id", $this->id);
 

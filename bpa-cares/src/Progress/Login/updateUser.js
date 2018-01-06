@@ -7,7 +7,7 @@ export class UpdateUserComponent extends Component {
         super()
         this.state = {
             id: -1,
-            member_id: -1,
+            member_id: "",
             name: "",
             state: "",
             chapter: "",
@@ -78,16 +78,11 @@ export class UpdateUserComponent extends Component {
             data: JSON.stringify(form_data),
             success: function(response) {
                 this.setState({successCreation: response['message']});
-                this.setState({member_id:-1});
-                this.setState({name:""});
-                this.setState({state:""});
-                this.setState({chapter:""});
-                this.setState({email:""});
-                this.setState({password:""});
-                this.setState({officer_title:""});
+
             }.bind(this),
             error: function(xhr, resp, text) {
                 console.log(xhr, resp, text);
+                alert( xhr.responseText);
             }
         });
         e.preventDefault();
