@@ -18,14 +18,14 @@
     $user->email = $data->email;
     $user->password = $data->password;
 
-    /*if($user->login()) {
+    if($user->login()) {
         echo '{';
-            echo '"message": "User was Logged In"';
+            echo '"message": "User was Logged In",';
+            echo '"row":'.$user->sql;
         echo '}';
     } else {
         echo '{';
             echo '"message": "Login Failed"';
         echo '}';
-    }*/
-    echo '{"message":'.$user->login'}';
+    }
 ?>

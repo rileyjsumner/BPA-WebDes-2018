@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../../App.css';
+import Scrollchor from 'react-scrollchor';
 import {
   Collapse,
   Navbar,

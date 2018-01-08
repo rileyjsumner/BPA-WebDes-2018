@@ -23,7 +23,7 @@ export class LoginUserComponent extends Component {
         $('.page-header h1').text('Login');
     }
     componentWillUnmount() {
-        
+
     }
     onEmailChange(e) {
         this.setState({email: e.target.value});
@@ -43,7 +43,7 @@ export class LoginUserComponent extends Component {
             data: JSON.stringify(form_data),
             success: function(response) {
                 this.setState({loginSuccess: response['message']})
-                console.log(this.state.loginSuccess);
+                console.log(response['row']);
             }.bind(this),
             error: function(xhr, resp, text) {
                 console.log(xhr, resp, text);

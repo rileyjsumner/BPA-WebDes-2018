@@ -14,7 +14,8 @@ font-family: 'Lalezar', cursive; - Heading
     background-position: fixed;
 }
 .homeWrapper {
-    background-color: #ED3E41;
+    background-color: #CB3E41;
+    background-blend-mode:darken;
     height: 600px;
 }
 .circle {
@@ -23,7 +24,7 @@ font-family: 'Lalezar', cursive; - Heading
     border-radius: 50%;
     font-size: 50px;
     color: black;
-    line-height: 500px;
+    line-height: 600px;
     text-align: center;
     background: white;
     background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
@@ -41,10 +42,10 @@ font-family: 'Lalezar', cursive; - Heading
     width: 550px;
     height: 550px;
     border-radius: 50%;
-    line-height: 500px;
+    line-height: 600px;
     z-index: 1;
     margin: auto;
-    border-width: 9px;
+    border-width: 5px;
     border-color: #003261;
     border-style: dotted;
     margin-top: -575px;
@@ -127,14 +128,13 @@ font-family: 'Lalezar', cursive; - Heading
 }
 .break {
     opacity: .45;
-    min-height: 500px;
-    background-color: #ED3E41;
+    min-height: 375px;
 }
 .homePageWrapper {
     background-image: url('./pics/dreambigger.jpg');
     background-repeat:no-repeat;
     background-position: bottom;
-    background-size: contain;
+    background-size:contain;
     background-attachment: fixed;
 }
 .home-row {

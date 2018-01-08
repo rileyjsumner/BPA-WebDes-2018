@@ -35,10 +35,8 @@
             $stmt->bindParam(":email", $this->email);
             $stmt->bindParam(":password", $this->email);
 
-            $stmt->execute();
-
-            $count = $stmt->rowCount();
-            return $count;
+            $this->sql = $count;
+            return $stmt->execute() ? true : false;
 
         }
         function create() {

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import '../App.css';
 import upIcon from '../pics/upIcon.png';
+import $ from 'jquery';
 import { Navigation } from './NavBar/NavBar.js';
 
 export class SplashPage extends Component {
@@ -21,28 +22,35 @@ export class SplashPage extends Component {
     scrollToTop() {
         scroll.scrollToTop();
     }
+    scrollTo() {
+        scroll.scrollTo(50);
+    }
     handleSetActive(to) {
         console.log(to);
     }
     render() {
+        var scrollPos = window.pageYOffset ;
+        console.log("scroll:"+scrollPos);
         return (
             <div className="homeWrapper">
-                <div className="circle"></div>
-                <div className="circle_inner"></div>
-                <div className="PageCont">
-                    <div className="body" id="home">
-                        <h2>BPA CARES</h2>
-                        <div className="torches">
-                            <p>LEADERSHIP | SERVICE | COOPERATION </p>
-                            <p>KNOWLEDGE | FRIENDSHIP | LOVE</p>
-                            <p>HOPE | FAITH | PATRIOTISM</p>
-                        </div>
-                        <div id="nav">
-                            <Navigation/>
+                <div className="cover">
+                    <div className="circle"></div>
+                    <div className="circle_inner"></div>
+                    <div className="PageCont">
+                        <div className="body" id="home">
+                            <h2>BPA CARES</h2>
+                            <div className="torches">
+                                <p>LEADERSHIP | SERVICE | COOPERATION </p>
+                                <p>KNOWLEDGE | FRIENDSHIP | LOVE</p>
+                                <p>HOPE | FAITH | PATRIOTISM</p>
+                            </div>
+                            <div id="nav">
+                                <Navigation/>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <a className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75" alt=""/></a>
+                <a id="scroller" className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75" alt=""/></a>
             </div>
         );
     }
