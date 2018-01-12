@@ -35,7 +35,7 @@ export class SpecialOlympics extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <h2>Recognition</h2>
-                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference</p>
+                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
                         </div>
                     </div>
                     <NonDiscrimination/>

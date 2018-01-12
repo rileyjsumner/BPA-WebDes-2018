@@ -39,7 +39,7 @@ export class ServiceLearning extends Component {
                             <p>It is not necessary for a chapter or individual to attend the National Leadership Conference to participate in the program and receive the award, except Merit Scholar.</p>
                             <p>DO NOT SEND ANY AWARD APPLICATION(S) AS PART OF ANOTHER APPLICATION. AWARDS MAY NOT BE SUBMITTED WITH TECHNICAL PROJECTS FOR COMPETITIVE EVENTS. EACH AWARD MUST BE SUBMITTED SEPARATELY.</p>
                             <h2>Recognition</h2>
-                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference</p>
+                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
                         </div>
                     </div>
                     <NonDiscrimination/>

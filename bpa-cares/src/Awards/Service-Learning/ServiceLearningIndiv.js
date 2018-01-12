@@ -14,7 +14,7 @@ export class ServiceLearningIndiv extends Component {
                             <h2>Purpose</h2>
                             <p>To recognize local members involved in Service Learning.</p>
                             <h2>Eligibility</h2>
-                            <p>All applicants must be in good standing with Business Professionals of America. This award is open to members in the Middle Level, Post-Secondary and Secondary Divisions who provide a minimum of 500 hours of service learning to their community and have earned the President&#39;s Volunteer Servcie Award withing the same membership year.</p>
+                            <p>All applicants must be in good standing with Business Professionals of America. This award is open to members in the Middle Level, Post-Secondary and Secondary Divisions who provide a minimum of 500 hours of service learning to their community and have earned the President&#39;s Volunteer Service Award within the same membership year.</p>
                             <h2>Guidelines and Application</h2>
                             <p>All applications must be submitted utilizing the online application. Submission applications must include all activity descriptions. Partial applications will not be accepted or combined. Do not begin the application online submission form until you have completed all activities. Applications due April 1.</p>
                             <ol>

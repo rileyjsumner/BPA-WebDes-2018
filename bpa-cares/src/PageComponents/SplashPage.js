@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Events, animateScroll as scroll, scrollSpy } from 'react-scroll';
 import '../App.css';
 import upIcon from '../pics/upIcon.png';
+import downIcon from '../pics/downIcon.png';
 import $ from 'jquery';
 import { Navigation } from './NavBar/NavBar.js';
 
@@ -22,8 +23,8 @@ export class SplashPage extends Component {
     scrollToTop() {
         scroll.scrollToTop();
     }
-    scrollTo() {
-        scroll.scrollTo(50);
+    scrollMore() {
+        scroll.scrollMore(200);
     }
     handleSetActive(to) {
         console.log(to);
@@ -51,6 +52,7 @@ export class SplashPage extends Component {
                     </div>
                 </div>
                 <a id="scroller" className="scroller" onClick={this.scrollToTop}><img src={upIcon} height="75" width="75" alt=""/></a>
+                <a id="scroll_more" className="scroller" onClick={this.scrollMore}><img src={downIcon} height="75" widht="75" alt=""/></a>
             </div>
         );
     }

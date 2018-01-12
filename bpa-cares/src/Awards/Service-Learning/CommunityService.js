@@ -12,7 +12,7 @@ export class CommunityService extends Component {
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>
-                            <p>To encourage local chapters to become actively involved in community betterment, school improvement, and election-year activities; to encourage local chapters to develop ways of involving heir members in these kinds of activities; and to recognize chapters for their involvement in engaged citizenry.</p>
+                            <p>To encourage local chapters to become actively involved in community betterment, school improvement, and election-year activities; to encourage local chapters to develop ways of involving their members in these kinds of activities; and to recognize chapters for their involvement in engaged citizenry.</p>
                             <h2>Eligibility</h2>
                             <p>All applicants must be in good standing with Business Professionals of America. This award is open to members in the Middle Level, Post-Secondary and Secondary Divisions who have completed at minimum 100 service hours or contributed at minimum $500.00 to a service organization.</p>
                             <h2>Guidelines and Application</h2>
@@ -36,7 +36,7 @@ export class CommunityService extends Component {
                     <div className="row">
                         <div className="col-md-12">
                             <h2>Recognition</h2>
-                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference</p>
+                            <p>100-249 service hours OR $500.00-$999.00 contribution: Certificate of Achievement 250+ service hours or $1000.00+: Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
                         </div>
                     </div>
                     <NonDiscrimination/>
