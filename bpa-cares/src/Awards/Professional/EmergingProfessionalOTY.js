@@ -3,13 +3,15 @@ import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/Ap
 import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
 import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
+import {SplashPage} from '../../PageComponents/SplashPage.js';
 
 export class EmergingProfessionalOTY extends Component {
     render() {
         return (
             <div className="Wrapper">
+                <SplashPage />
+                <h1>Emerging Professional of the Year Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Emerging Professional of the Year Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

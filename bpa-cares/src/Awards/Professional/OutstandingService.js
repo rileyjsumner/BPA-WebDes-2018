@@ -9,8 +9,8 @@ export class OutstandingService extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
+                <h1>Outstanding Service Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Outstanding Service Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

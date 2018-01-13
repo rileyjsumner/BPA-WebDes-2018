@@ -7,8 +7,8 @@ export class MembershipExplosion extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+                <h1>Membership Explosion Award</h1>
                 <div className="awardWrapper slideup">
-                    <h1>Membership Explosion Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

@@ -10,8 +10,8 @@ export class HallOfFame extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
+                <h1>Hall of Fame Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Hall of Fame Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

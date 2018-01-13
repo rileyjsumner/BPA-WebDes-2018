@@ -7,8 +7,8 @@ export class Professional extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
+                <h1>Professional Awards Program Overview</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Professional Awards Program Overview</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Awards</h2>

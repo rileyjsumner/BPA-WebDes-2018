@@ -12,15 +12,16 @@ font-family: 'Lalezar', cursive; - Heading
 .homeWrapper {
     background-color: #CB3E41;
     background-blend-mode:darken;
-    height: 600px;
+    height: 500px;
+    margin-top: -50px;
 }
 .circle {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     border-radius: 50%;
     font-size: 50px;
     color: black;
-    line-height: 600px;
+    line-height: 500px;
     text-align: center;
     background: white;
     background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
@@ -29,36 +30,36 @@ font-family: 'Lalezar', cursive; - Heading
     background: radial-gradient(#E8D5BE, #E0BF96);
     z-index: -2;
     margin: auto;
-    border-width: 8px;
+    border-width: 6px;
     border-color: black;
     border-style: solid;
     margin-top: 100px;
 }
 .circle_inner {
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
-    line-height: 600px;
+    line-height: 500px;
     z-index: 1;
     margin: auto;
     border-width: 5px;
     border-color: #003261;
     border-style: dotted;
-    margin-top: -575px;
+    margin-top: -475px;
 }
 .PageCont {
     z-index: 1;
     margin-top: -500px;
 }
 .body {
-    margin-top: -450px;
+    margin-top: 100px;
     text-align: center;
     z-index: 1;
     position: relative;
 }
 .body h2 {
     font-family: 'Lalezar', cursive;;
-    font-size: 3em;
+    font-size: 2.75em;
     color:#CB3E41;
     text-shadow: -1px 0 #000000,0 1px #000000, 1px 0 #000000,0 -1px #000000;
 }
@@ -66,7 +67,7 @@ font-family: 'Lalezar', cursive; - Heading
     font-family: 'Arvo', serif;;
     color: #003261;
     margin-top: -50px;
-    font-size: 14px;
+    font-size: 10px;
 }
 .torches {
     padding-top: 0px;
@@ -84,13 +85,21 @@ font-family: 'Lalezar', cursive; - Heading
     background-color: #003261;
 }
 .awardWrapper {
-    margin: 50px 10px 30px 10px;
+    margin: 10px 90px 30px 90px;
     background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
     background: -o-radial-gradient(#E8D5BE, #E0BF96);
     background: -moz-radial-gradient(#E8D5BE, #E0BF96);
     background: radial-gradient(#E8D5BE, #E0BF96);
     border: 3px solid white;
     padding: 10px;
+}
+.Wrapper h1 {
+    text-align: center;
+    font-family: 'Lalezar', cursive;
+    color: white;
+    font-size: 3em;
+    margin-top: 20px;
+
 }
 .awardWrapper h1 {
     text-align: center;
@@ -105,13 +114,13 @@ font-family: 'Lalezar', cursive; - Heading
 }
 #scroller {
     bottom: 10px;
-    right: 20px;
+    right: 10px;
     position: fixed;
     z-index: 2;
 }
 #scroll_more {
     bottom: 10px;
-    left: 20px;
+    left: 10px;
     position: fixed;
     z-index: 2;
 }

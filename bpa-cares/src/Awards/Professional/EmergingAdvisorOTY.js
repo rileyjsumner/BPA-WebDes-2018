@@ -10,8 +10,8 @@ export class EmergingAdvisorOTY extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+                <h1>Emerging Advisor of the Year</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Emerging Advisor of the Year</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

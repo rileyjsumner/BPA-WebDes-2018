@@ -1,12 +1,15 @@
 .navAlign {
     text-align: center;
-    padding-left: 250px;
+    padding-left: 150px;
 }
 .dropdown {
     margin: 15px;
     padding: 15px;
 }
 .row {
-    width: 100%;
+    width: 50%;
     text-align: center;
+}
+.row div {
+    max-width: 75px;
 }

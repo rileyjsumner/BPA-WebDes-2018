@@ -6,8 +6,8 @@ export class RecruiterOTY extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+                <h1>Recruiter of the Year Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1> Recruiter of the Year Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2> Eligibility</h2>

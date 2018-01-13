@@ -7,8 +7,8 @@ export class MarketingAndPR extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+                <h1>BPA Marketing and Public Relations Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>BPA Marketing and Public Relations Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

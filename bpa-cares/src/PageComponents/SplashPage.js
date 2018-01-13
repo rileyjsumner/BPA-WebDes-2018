@@ -35,15 +35,14 @@ export class SplashPage extends Component {
         return (
             <div className="homeWrapper">
                 <div className="cover">
-                    <div className="circle"></div>
-                    <div className="circle_inner"></div>
-                    <div className="PageCont">
+                    <div className="circle fadeIn"></div>
+                    <div className="circle_inner fadeIn"></div>
+                    <div className="PageCont fadeIn">
                         <div className="body" id="home">
                             <h2>BPA CARES</h2>
                             <div className="torches">
-                                <p>LEADERSHIP | SERVICE | COOPERATION </p>
-                                <p>KNOWLEDGE | FRIENDSHIP | LOVE</p>
-                                <p>HOPE | FAITH | PATRIOTISM</p>
+                                <p>LEADERSHIP | SERVICE | COOPERATION | KNOWLEDGE</p>
+                                <p>FRIENDSHIP | LOVE | HOPE | FAITH | PATRIOTISM</p>
                             </div>
                             <div id="nav">
                                 <Navigation/>

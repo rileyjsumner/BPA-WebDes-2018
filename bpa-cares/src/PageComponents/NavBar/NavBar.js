@@ -41,7 +41,7 @@ export class Navigation extends Component {
                             <br />
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger" caret>Service Learning Awards</DropdownToggle>
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Service Learning</DropdownToggle>
                                     <DropdownMenu>
                                         <DropdownItem href="./#/ServiceLearning">Service Learning</DropdownItem>
                                         <DropdownItem divider></DropdownItem>
@@ -56,7 +56,7 @@ export class Navigation extends Component {
                             <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger" caret>Special Recognition Awards</DropdownToggle>
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Special Recognition</DropdownToggle>
                                     <DropdownMenu >
                                         <DropdownItem href="./#/SpecialRecognition">Special Recognition</DropdownItem>
                                         <DropdownItem divider></DropdownItem>
@@ -73,7 +73,7 @@ export class Navigation extends Component {
                             <br/>
                             <div>
                                 <UncontrolledDropdown className="text-center">
-                                    <DropdownToggle className="col-md-12" color="danger" caret>Professional Awards</DropdownToggle>
+                                    <DropdownToggle className="col-md-12" color="danger" caret>Professional</DropdownToggle>
                                     <DropdownMenu >
                                         <DropdownItem href="./#/Professional">Professional</DropdownItem>
                                         <DropdownItem divider></DropdownItem>

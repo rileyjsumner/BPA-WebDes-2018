@@ -7,8 +7,8 @@ export class SafetyAwareness extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage/>
+                <h1>Safety Awareness Award</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Safety Awareness Award</h1>
                     <div className="row">
                         <div className="col-md-6">
                             <h2>Purpose</h2>

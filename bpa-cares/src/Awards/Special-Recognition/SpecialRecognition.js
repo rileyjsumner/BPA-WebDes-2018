@@ -6,8 +6,8 @@ export class SpecialRecognition extends Component {
         return (
             <div className="Wrapper">
                 <SplashPage />
+                <h1>Special Recognition Awards Program Overview</h1>
                 <div className="awardWrapper slideUp">
-                    <h1>Special Recognition Awards Program Overview</h1>
                     <h2>Awards</h2>
                     <ol>
                         <li>BPA Marketing and Public Relations</li>
