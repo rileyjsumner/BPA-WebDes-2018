@@ -9,7 +9,7 @@ export class AwardOfExcellence extends Component {
           return (
               <div className="Wrapper">
                   <SplashPage />
-                  <h1>Award Of Excellence</h1>
+                  <h1>Chapter Activities Award Of Excellence</h1>
                   <div className="awardWrapper slideUp">
                       <div className="row">
                             <div className="col-md-6">
@@ -25,7 +25,7 @@ export class AwardOfExcellence extends Component {
                               include all activity descriptions. Partial applications will not be accepted or combined. Do not begin
                               the application online submission form until you have completed all activities.</p>
                               <p>Applications due April 1.</p>
-                              <p> <a href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform">Online Application</a></p>
+                              <p> <a target="_blank" href ="https://docs.google.com/forms/d/e/1FAIpQLScI2Vu0jlYu-vCy_CLaQxzItdRNwum0cQWZEEYcYWv42kNTqA/viewform">Online Application</a></p>
                               <h2>Required Activities</h2>
                               <p>Activities for this award can be duplicated from other activity submissions.</p>
                               <p> The following award applications are required to be submitted (applicant is not required to
@@ -53,7 +53,6 @@ export class AwardOfExcellence extends Component {
                               <h2>Qualification Period</h2>
                               <p>Activities completed between April 2, 2017 and April 1, 2018 (11:59 PM EST) can be counted
                               towards this award.</p>
-                              <a href="http://www.bpa.org/service/rubriccaa">Rubric</a>
                               <h2>Recognition</h2>
                               <p>Chapter Activities Award of Excellence: A plaque will be presented to each qualifying chapter on stage at the National Leadership Conference.</p>
                               <Generalinfo/>
@@ -70,7 +69,7 @@ export class AwardOfExcellence extends Component {
                           </div>
                       </div>
                       <NonDiscrimination/>
-                      <h1> Chapter Activities Award Of Excellence Rubric </h1>
+                      <h2 className="no_style"><a target="_blank" className="no_style" href="http://www.bpa.org/service/rubriccaa">Chapter Activities Award Of Excellence Rubric</a></h2>
                       <p> The following rubric will be used for scoring Chapter Activities Award of Excellence submissions. In order to receive recognition, projects must meet all basic qualifications, as well as score a minimum of 85% of possible points. </p>
                       <p> All entries must be submitted using the online application. </p>
                       <table className="table table-striped table-bordered table-condensed">

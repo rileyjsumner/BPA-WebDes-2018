@@ -66,8 +66,8 @@ slideUp
 	animation-name: slideUp;
 	-webkit-animation-name: slideUp;
 
-	animation-duration: 3s;
-	-webkit-animation-duration: 3s;
+	animation-duration: 1.75s;
+	-webkit-animation-duration: 1.75s;
 
 	animation-timing-function: ease;
 	-webkit-animation-timing-function: ease;

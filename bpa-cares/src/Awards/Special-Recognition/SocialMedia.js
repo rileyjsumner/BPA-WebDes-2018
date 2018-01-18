@@ -27,7 +27,7 @@ export class SocialMedia extends Component {
                             <h2>Guidlines and Application</h2>
                             <p>Applications must be submitted utilizing the online application. Submission applications must include all activity descriptions. Partial applications will not be accepted or combined. Do not begin the application online submission form until you have completed all activities</p>
                             <p> Applications due April 1.</p>
-                            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSd4POZSfVtxKCe28uR7qe3RV-UhNuq8abOKg8Q7oWtksYWJrw/viewform">Online Application</a></p>
+                            <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSd4POZSfVtxKCe28uR7qe3RV-UhNuq8abOKg8Q7oWtksYWJrw/viewform">Online Application</a></p>
                             <h2>Qualification Period</h2>
                             <p>Activities completed between April 2, 2017 and April 1, 2018 (11:59 PM EST) can be counted towards this award.</p>
                             <h2>General Information</h2>
@@ -39,7 +39,7 @@ export class SocialMedia extends Component {
                             <h2>Recognition</h2>
                             <p>Chapters who complete a minimum of four (4) activities will receive a Certificate of Achievement.</p>
                             <p>The top chapter in each Division completing the most activities will receive an Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
-                            <p>Having trouble with the BPA Cares Award? Visit our <a href="http://www.bpa.org/service/caresfaq">Frequently Asked Questions page.</a></p>
+                            <p>Having trouble with the BPA Cares Award? Visit our <a target="_blank" href="http://www.bpa.org/service/caresfaq">Frequently Asked Questions page.</a></p>
                         </div>
                     </div>
                     <NonDiscrimination/>

@@ -27,6 +27,7 @@ export class HomePage extends Component {
                             <div className="col-md-8 text-center home-div">
                                 <h1>BPA Cares Guidelines</h1>
                                 <p>A BPA chapter aligned with the goals and mission of Business Professional of America is concerned with service. Business Professionals of America recommends chapters become involved in one or more of the BPA Cares programs it offers. Participation in this program means that members are engaging in worthwhile projects while having the opportunity to receive recognition from the national organization.<b> Be sure to share pictures of you and/or your chapter participating in various BPA Cares activities on social media, tag BPA, and use the hashtag, “#bpacares”.</b></p>
+                                <p>This informational video comes from the National Officer Team</p>
                                 <Iframe url="https://www.youtube.com/embed/ZuzE6nXl6Fg" width="90%" height="65%" allowFullScreen/>
                             </div>
                         </div>

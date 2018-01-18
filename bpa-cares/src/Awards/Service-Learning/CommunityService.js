@@ -28,7 +28,7 @@ export class CommunityService extends Component {
                             <p>Activities may include but are not limited to volunteering, training and/or contributing to blood drives, clothing drives, food drives, disaster relief assistance or local community shelters.</p>
                             <p>All activity descriptions must include title, organization benefiting from the project, date project completed, location of the project and description of the project.</p>
                             <p>NO E-MAIL OR MAIL APPLICATIONS WILL BE ACCEPTED.</p>
-                            <p>All materials submitted become the property of Business Professionals of America and may be used as the National Center deem sappropriate.</p>
+                            <p>All materials submitted become the property of Business Professionals of America and may be used as the National Center deems appropriate.</p>
                             <p>It is not necessary for a chapter to attend the National Leadership Conference to participate in the program and recieve the award.</p>
                             <p>DO NOT SEND ANY AWARD APPLICATION(S) AS PART OF ANOTHER APPLICATION. AWARDS MAY NOT BE SUBMITTED WITH TECHNICAL PROJECTS FOR COMPETITIVE EVENTS. EACH AWARD MUST BE SUBMITTED SEPARATELY.</p>
                         </div>

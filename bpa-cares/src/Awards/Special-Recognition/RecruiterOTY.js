@@ -15,20 +15,20 @@ export class RecruiterOTY extends Component {
                             <h2>Guidlines and Application</h2>
                             <p>All applications must be submitted utilizing the online application. Submission applications must include all activity descriptions. Partial applications will not be accepted or combined. Do not begin the application online submission form until you have completed all activities.</p>
                             <p> Application due April 1.</p>
-                            <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdbPT1vwJ3AokRh60YJ3j379ow1YxY39w0o0sMLNNrn2xYhhA/viewform"> Online Application </a></p>
+                            <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdbPT1vwJ3AokRh60YJ3j379ow1YxY39w0o0sMLNNrn2xYhhA/viewform"> Online Application </a></p>
                         </div>
                         <div className="col-md-6">
                         <h2>Purpose</h2>
                         <p>To encourage current student members of the Secondary, Post-Secondary, and Middle Level Divisions to recruit new BPA members and chapters.</p>
                             <h2>Qualification Period</h2>
                             <p> Activities completed between August 31, 2017 and February 15, 2018 (11:59 PM EST) can be counted toward this award. </p>
-                            <h2> General information </h2>
+                            <h2> General Information </h2>
                             <p> NO E-MAIL OR MAIL APPLICATIONS WILL BE ACCEPTED. </p>
                             <p>All materials submitted become the property of Business Professionals of America and may be used as the National Center deems appropriate.It is not necessary for the individual to attend the National Leadership Conference to participate in the program and receive the award. </p>
                             <p>DO NOT SEND ANY AWARD APPLICATION(S) AS PART OF ANOTHER APPLICATION. AWARDS MAY NOT BE SUBMITTED WITH TECHNICAL PROJECTS FOR COMPETITIVE EVENTS. EACH AWARD MUST BE SUBMITTED SEPARATELY</p>
                             <h2> Recognition </h2>
                             <p>BPA Recruiter of the Year Award: Approved applicants will receive a Certificate of Achievement. Each year the applicant with the most amount of recruiter points received, based on the above criteria, in their division will be recognized with a plaque as National Recruiter of the Year at a General Session during the NLC. </p>
-                            <p> Having trouble with the BPA Cares Award? <a href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
+                            <p> Having trouble with the BPA Cares Award? <a target="_blank" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
                         </div>
                     </div>
                     <NonDiscrimination />

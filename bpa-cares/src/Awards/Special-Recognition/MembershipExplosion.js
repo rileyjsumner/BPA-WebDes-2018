@@ -25,7 +25,7 @@ export class MembershipExplosion extends Component {
                             <p>It is not necessary for the individual to attend the National Leadership Conference to participate in the program and receive the award.</p>
                             <h2>Recognition</h2>
                             <p>Chapters with the minimum increase will receive a Certificate of Achievement. The top overall chapter in each division with the highest number growth will receive an Award of Achievement and recognition on-stage at the National Leadership Conference and the overall top chapter in each division with the highest percentage growth will receive an Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
-                            <p> Having trouble with the BPA Cares Award? <a href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
+                            <p> Having trouble with the BPA Cares Award? <a target="_blank" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
                         </div>
                     </div>
                     <NonDiscrimination />
