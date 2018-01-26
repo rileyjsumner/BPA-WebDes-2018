@@ -9,7 +9,7 @@ export class HomePage extends Component {
         return (
             <div className="homePageWrapper">
                 <div className="homeContent">
-                    <div id="homeRow">
+                    <div className="contentWrapHome" id="homeRow">
                         <div className="row home-row">
                             <div className="col-md-4 text-center home-div">
                                 <Timeline
@@ -26,8 +26,8 @@ export class HomePage extends Component {
                             </div>
                             <div className="col-md-8 text-center home-div">
                                 <h1>BPA Cares Guidelines</h1>
-                                <p>A BPA chapter aligned with the goals and mission of Business Professional of America is concerned with service. Business Professionals of America recommends chapters become involved in one or more of the BPA Cares programs it offers. Participation in this program means that members are engaging in worthwhile projects while having the opportunity to receive recognition from the national organization.<b> Be sure to share pictures of you and/or your chapter participating in various BPA Cares activities on social media, tag BPA, and use the hashtag, “#bpacares”.</b></p>
-                                <p>This informational video comes from the National Officer Team</p>
+                                <p>A BPA chapter aligned with the goals and mission of Business Professional of America is concerned with service. Business Professionals of America recommends chapters become involved in one or more of the BPA Cares programs it offers. Participation in this program means that members are engaging in worthwhile projects while having the opportunity to receive recognition from the national organization.<b> Be sure to share pictures of you and/or your chapter participating in various BPA Cares activities on social media, tag BPA, and use the hashtag, “#bpacares”. ("2017-18 BPA Cares", 2017)</b></p>
+                                <p>("BPA Cares Video", 2017)</p>
                                 <Iframe url="https://www.youtube.com/embed/ZuzE6nXl6Fg" width="90%" height="65%" allowFullScreen/>
                             </div>
                         </div>
@@ -36,11 +36,14 @@ export class HomePage extends Component {
                 <div className="break">
                 </div>
                 <div className="homeContent">
-                    <div className="row home-row">
-                        <div className="col-md-12 text-center footer">
-                            <h1>Designed by Anoka BPA Web Design Team 1</h1>
-                            <p>30-0005-0008 | 30-0005-0018</p>
-                            <br />
+                    <div className="contentWrapHome">
+                        <div className="row home-row">
+                            <div className="col-md-12 text-center footer">
+                                <h1>Designed by Anoka BPA Web Design Team 1</h1>
+                                <p>30-0005-0008 | 30-0005-0018 | 30-0005-0035 | 30-0005-0036</p>
+                                <p>Laura Ewals | Riley Sumner | Nate Langner | Brett Belknap</p>
+                                <br />
+                            </div>
                         </div>
                     </div>
                 </div>

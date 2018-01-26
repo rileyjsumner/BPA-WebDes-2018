@@ -30,8 +30,8 @@ export class ProfessionalCup extends Component {
                                 <li>The total number of members receiving the Ambassador Torch Award within the state.</li>
                                 <li>The association’s percentage of chapters meeting the criteria for the Membership Explosion Award.</li>
                                 <li>The total number of chapters meeting the criteria for the Membership Explosion Award within the state.</li>
-                                <li>The association’s percentage of chapters earning the <a target="_blank" href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a> </li>
-                                <li>The total number of chapters earning the <a target="_blank" href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction</a> within the state. </li>
+                                <li>The association’s percentage of chapters earning the <a target="_blank" rel="noopener noreferrer" href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction.</a> </li>
+                                <li>The total number of chapters earning the <a target="_blank" rel="noopener noreferrer" href="http://www.bpa.org/application/qualitychapter.aspx">Quality Chapter Distinction</a> within the state. </li>
                             </ol>
                             <p> The ranking in these eight (8) qualifications will determine eight (8) point values which, when added together, will constitute a final ranking. The state association who receives the best overall rank will receive the Professional Cup. In the event of a tie, the award will be given to the state association with the highest divisional increase in percentage of membership over the previous year.</p>
                         </div>
@@ -47,7 +47,7 @@ export class ProfessionalCup extends Component {
                             <h2> Recognition </h2>
                             <p> The award will be presented on stage during the National Leadership Conference. It will consist of a plaque for the state association to keep and the Professional Cup trophy with the state association’s name and the year it was won engraved on a 10-year engraving plate. The Professional Cup trophy will be in the winning state association’s possession for one year starting from the last day of the National Leadership Conference until the next National Leadership Conference, where it will be presented to the next winning state association. </p>
                             <p>After the tenth year, the trophy will be retired and presented to the state within each Division who won the award the most times during the ten years. </p>
-                            <p> Having trouble with the BPA Cares Award? <a target="_blank" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
+                            <p> Having trouble with the BPA Cares Award? <a target="_blank" rel="noopener noreferrer" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
                         </div>
                     </div>
                     <NonDiscrimination />

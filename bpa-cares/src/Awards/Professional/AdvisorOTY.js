@@ -3,7 +3,9 @@ import { ApplicationGuidelines } from '../../PageComponents/GeneralComponents/Ap
 import{ Generalinfo } from '../../PageComponents/GeneralComponents/Generalinfo.js';
 import { NonDiscrimination} from '../../PageComponents/GeneralComponents/Non-Discrimination.js';
 import {Recognition} from '../../PageComponents/GeneralComponents/Recognition.js';
-import { SplashPage } from '../../PageComponents/SplashPage.js';import '../../animation.css';
+import { SplashPage } from '../../PageComponents/SplashPage.js';
+import '../../animation.css';
+import {Citation} from '../../PageComponents/GeneralComponents/Citation.js';
 import '../../animation.css';
 
 export class AdvisorOTY extends Component {
@@ -32,6 +34,7 @@ export class AdvisorOTY extends Component {
                         <div className="col-md-6">
                             <ApplicationGuidelines />
                             <Generalinfo />
+                            <Citation />
                         </div>
                     </div>
                     <NonDiscrimination />

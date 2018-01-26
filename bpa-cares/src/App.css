@@ -128,8 +128,10 @@ font-family: 'Lalezar', cursive; - Heading
     background-color: #003261;
     padding-bottom: 10px;
 }
+.contentWrapHome {
+    margin: 10px 90px 30px 90px;
+}
 #homeRow {
-    margin: 50px 10px 30px 10px;
     padding: 15px;
     background: -webkit-radial-gradient(#E8D5BE, #E0BF96);
     background: -o-radial-gradient(#E8D5BE, #E0BF96);
@@ -150,7 +152,6 @@ font-family: 'Lalezar', cursive; - Heading
 }
 .home-row {
     z-index: 2;
-    background:
 }
 .home-div h1 {
     font-family: 'Lalezar', cursive;

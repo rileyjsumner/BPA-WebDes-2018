@@ -32,7 +32,7 @@ export class Professional extends Component {
                         </div>
                         <div className="col-md-6">
                             <h2>Submission</h2>
-                            <p>Professional Award applications must be submitted using <a target="_blank" href ="http://www.bpa.org/submit." >Submit link</a></p>
+                            <p>Professional Award applications must be submitted using <a target="_blank" rel="noopener noreferrer" href ="http://www.bpa.org/submit." >Submit link</a></p>
                             <p>Applications due March 1.</p>
                             <h2>Recognition</h2>
                             <p>Advisor of the Year, Emerging Advisor of the Year, Emerging Professional of the Year: A maximum of one (1) individual will be recognized with a plaque on stage at the National Leadership Conference.</p>

@@ -18,10 +18,10 @@ export class MarketingAndPR extends Component {
                             <h2>Guidelines & Application</h2>
                             <p>All applications must be submitted utilizing the online application. Submission applications must include all activity descriptions. Partial applications will not be accepted or combined. Do not begin the application online submission form until you have completed all activities.</p>
                             <p>Applications due April 1.</p>
-                            <p><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSebfwnWt7OvmQY2hCfM-4DJqZlQU7vlOnyk2sFi1ssldI8dRQ/viewform">Online Application</a></p>
+                            <p><a target="_blank" rel="noopener noreferrer" href="https://docs.google.com/forms/d/e/1FAIpQLSebfwnWt7OvmQY2hCfM-4DJqZlQU7vlOnyk2sFi1ssldI8dRQ/viewform">Online Application</a></p>
                             <h2>Recognition</h2>
                             <p>BPA Marketing & Public Relations: Chapters completing the minimum number of activities will receive a Certificate of Achievement. Chapters completing five or more activities will receive a Award of Achievement and recognition on-stage at the National Leadership Conference.</p>
-                            <p> Having trouble with the BPA Cares Award? <a target="_blank" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
+                            <p> Having trouble with the BPA Cares Award? <a target="_blank" rel="noopener noreferrer" href="http://www.bpa.org/service/caresfaq"> Visit our Frequently Asked Questions page. </a> </p>
                         </div>
                         <div className="col-md-6">
                             <h2>General Information</h2>
